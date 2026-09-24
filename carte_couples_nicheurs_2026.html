@@ -1,0 +1,3827 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e2c9ea011efdbb6f8b9a80b7c8f699a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0e2c9ea011efdbb6f8b9a80b7c8f699a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0e2c9ea011efdbb6f8b9a80b7c8f699a = L.map(
+                "map_0e2c9ea011efdbb6f8b9a80b7c8f699a",
+                {
+                    center: [48.7, -3.85],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a622cb626d71ba9461ce202e2e6afc72 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a622cb626d71ba9461ce202e2e6afc72.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_3a4fb4fae971cc3e7524772eb4370a7b = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_3960aa55a5dbec8c2a70843c7173b8ab = L.circleMarker(
+                [48.73970452304759, -4.001368905901844],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.354143466934854, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3a4fb4fae971cc3e7524772eb4370a7b);
+        
+    
+        var popup_e7da6d0c24ef343d751969ddcf8d167d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e754277e4c1b507f6814946da01b5003 = $(`<div id="html_e754277e4c1b507f6814946da01b5003" style="width: 100.0%; height: 100.0%;"><b>ENEZ DENVED</b><br>Aigrette garzette (AG)<br><b>14 couples min.</b></div>`)[0];
+                popup_e7da6d0c24ef343d751969ddcf8d167d.setContent(html_e754277e4c1b507f6814946da01b5003);
+            
+        
+
+        circle_marker_3960aa55a5dbec8c2a70843c7173b8ab.bindPopup(popup_e7da6d0c24ef343d751969ddcf8d167d)
+        ;
+
+        
+    
+    
+            circle_marker_3960aa55a5dbec8c2a70843c7173b8ab.bindTooltip(
+                `<div>
+                     ENEZ DENVED — 14 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_12e9bdf4086b5ee54ffb766a70f069ae = L.circleMarker(
+                [48.68620847180292, -3.8840154961934035],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.693063937629155, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3a4fb4fae971cc3e7524772eb4370a7b);
+        
+    
+        var popup_787936e4fd16db0119d9cf4c377746d4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_17141f0a45aa3e8ffcb03ce95a74e64f = $(`<div id="html_17141f0a45aa3e8ffcb03ce95a74e64f" style="width: 100.0%; height: 100.0%;"><b>ENEZ WARGEZ</b><br>Aigrette garzette (AG)<br><b>30 couples min.</b></div>`)[0];
+                popup_787936e4fd16db0119d9cf4c377746d4.setContent(html_17141f0a45aa3e8ffcb03ce95a74e64f);
+            
+        
+
+        circle_marker_12e9bdf4086b5ee54ffb766a70f069ae.bindPopup(popup_787936e4fd16db0119d9cf4c377746d4)
+        ;
+
+        
+    
+    
+            circle_marker_12e9bdf4086b5ee54ffb766a70f069ae.bindTooltip(
+                `<div>
+                     ENEZ WARGEZ — 30 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_3a4fb4fae971cc3e7524772eb4370a7b.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_ea3f89f60e904631f1299ff78ff32647 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_0ea814eeb53ecc35fb46d793ce8c2a00 = L.circleMarker(
+                [48.69342944532674, -3.8849438266524654],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.67766952966369, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_beea0cd78215389879753e70ca3dc30f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af209305e2f00c6033d9a28aa8406f30 = $(`<div id="html_af209305e2f00c6033d9a28aa8406f30" style="width: 100.0%; height: 100.0%;"><b>AR BEG LEMM</b><br>Cormoran huppé (CH)<br><b>50 couples min.</b></div>`)[0];
+                popup_beea0cd78215389879753e70ca3dc30f.setContent(html_af209305e2f00c6033d9a28aa8406f30);
+            
+        
+
+        circle_marker_0ea814eeb53ecc35fb46d793ce8c2a00.bindPopup(popup_beea0cd78215389879753e70ca3dc30f)
+        ;
+
+        
+    
+    
+            circle_marker_0ea814eeb53ecc35fb46d793ce8c2a00.bindTooltip(
+                `<div>
+                     AR BEG LEMM — 50 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7d122c0324da4d6009208975acc3e986 = L.circleMarker(
+                [48.70635208162485, -3.9039381399868947],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.13913650100261, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_b6d80e642107155a49aed1d8fdba8389 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_89b1f640ecceecd1c98ff9e88d950fc4 = $(`<div id="html_89b1f640ecceecd1c98ff9e88d950fc4" style="width: 100.0%; height: 100.0%;"><b>AR VEZOU</b><br>Cormoran huppé (CH)<br><b>47 couples min.</b></div>`)[0];
+                popup_b6d80e642107155a49aed1d8fdba8389.setContent(html_89b1f640ecceecd1c98ff9e88d950fc4);
+            
+        
+
+        circle_marker_7d122c0324da4d6009208975acc3e986.bindPopup(popup_b6d80e642107155a49aed1d8fdba8389)
+        ;
+
+        
+    
+    
+            circle_marker_7d122c0324da4d6009208975acc3e986.bindTooltip(
+                `<div>
+                     AR VEZOU — 47 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3401e933b28333bd8f9c839f0cd7b4ab = L.circleMarker(
+                [48.721110674591074, -4.045612843303337],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_ea52997f1d66af4812784769457e562c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7bf5e348753d191dba56b27539f6deba = $(`<div id="html_7bf5e348753d191dba56b27539f6deba" style="width: 100.0%; height: 100.0%;"><b>AR_WIZ_KOZ</b><br>Cormoran huppé (CH)<br><b>4 couples min.</b></div>`)[0];
+                popup_ea52997f1d66af4812784769457e562c.setContent(html_7bf5e348753d191dba56b27539f6deba);
+            
+        
+
+        circle_marker_3401e933b28333bd8f9c839f0cd7b4ab.bindPopup(popup_ea52997f1d66af4812784769457e562c)
+        ;
+
+        
+    
+    
+            circle_marker_3401e933b28333bd8f9c839f0cd7b4ab.bindTooltip(
+                `<div>
+                     AR_WIZ_KOZ — 4 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eda6657f09e84f63aee694f9d269a6d4 = L.circleMarker(
+                [48.7534721780474, -4.028065127215005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.291561975888499, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_4d6b0ee30dc82b7d759d4279b48d4a74 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6de3319891d6e5ff32e7857e113631e1 = $(`<div id="html_6de3319891d6e5ff32e7857e113631e1" style="width: 100.0%; height: 100.0%;"><b>ENEZ AR PRAD</b><br>Cormoran huppé (CH)<br><b>11 couples min.</b></div>`)[0];
+                popup_4d6b0ee30dc82b7d759d4279b48d4a74.setContent(html_6de3319891d6e5ff32e7857e113631e1);
+            
+        
+
+        circle_marker_eda6657f09e84f63aee694f9d269a6d4.bindPopup(popup_4d6b0ee30dc82b7d759d4279b48d4a74)
+        ;
+
+        
+    
+    
+            circle_marker_eda6657f09e84f63aee694f9d269a6d4.bindTooltip(
+                `<div>
+                     ENEZ AR PRAD — 11 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b91966ab1028b2c86a4594705cc06b1 = L.circleMarker(
+                [48.73294546832799, -3.9703889892376356],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.905694150420949, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_ec3425f65d62cc11fecfff20fa881cc3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e7079572c916e70bfd4ef71002d5488 = $(`<div id="html_0e7079572c916e70bfd4ef71002d5488" style="width: 100.0%; height: 100.0%;"><b>ENEZ PIGUED</b><br>Cormoran huppé (CH)<br><b>10 couples min.</b></div>`)[0];
+                popup_ec3425f65d62cc11fecfff20fa881cc3.setContent(html_0e7079572c916e70bfd4ef71002d5488);
+            
+        
+
+        circle_marker_1b91966ab1028b2c86a4594705cc06b1.bindPopup(popup_ec3425f65d62cc11fecfff20fa881cc3)
+        ;
+
+        
+    
+    
+            circle_marker_1b91966ab1028b2c86a4594705cc06b1.bindTooltip(
+                `<div>
+                     ENEZ PIGUED — 10 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3e76d1ddfb80c7890da1b2d9aa2d4c63 = L.circleMarker(
+                [48.73621202372064, -3.970587721146269],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_2c0c678b78583ffc544816fb7c273615 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_715ef7f0d2eb3d4b2383a363a06ddf26 = $(`<div id="html_715ef7f0d2eb3d4b2383a363a06ddf26" style="width: 100.0%; height: 100.0%;"><b>ENEZ TI SAOZON</b><br>Cormoran huppé (CH)<br><b>89 couples min.</b></div>`)[0];
+                popup_2c0c678b78583ffc544816fb7c273615.setContent(html_715ef7f0d2eb3d4b2383a363a06ddf26);
+            
+        
+
+        circle_marker_3e76d1ddfb80c7890da1b2d9aa2d4c63.bindPopup(popup_2c0c678b78583ffc544816fb7c273615)
+        ;
+
+        
+    
+    
+            circle_marker_3e76d1ddfb80c7890da1b2d9aa2d4c63.bindTooltip(
+                `<div>
+                     ENEZ TI SAOZON — 89 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fab9f8e89db9183333e44ae056fb82d2 = L.circleMarker(
+                [48.68620847180292, -3.8840154961934035],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.46291201783626, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_c6e8aadb389c242130c0944cd7c1aba4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2db03dcb44d2b6a816c5ffa143b89d9b = $(`<div id="html_2db03dcb44d2b6a816c5ffa143b89d9b" style="width: 100.0%; height: 100.0%;"><b>ENEZ WARGEZ</b><br>Cormoran huppé (CH)<br><b>29 couples min.</b></div>`)[0];
+                popup_c6e8aadb389c242130c0944cd7c1aba4.setContent(html_2db03dcb44d2b6a816c5ffa143b89d9b);
+            
+        
+
+        circle_marker_fab9f8e89db9183333e44ae056fb82d2.bindPopup(popup_c6e8aadb389c242130c0944cd7c1aba4)
+        ;
+
+        
+    
+    
+            circle_marker_fab9f8e89db9183333e44ae056fb82d2.bindTooltip(
+                `<div>
+                     ENEZ WARGEZ — 29 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_200ac818ac1bbdbe07c76225ffe802dc = L.circleMarker(
+                [48.69974503344873, -3.9069929833293755],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.590169943749475, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_533fcdd3d0de218365e76f1e02a4f976 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a8b7be445d74ec0684dd64507b667dec = $(`<div id="html_a8b7be445d74ec0684dd64507b667dec" style="width: 100.0%; height: 100.0%;"><b>KASTELL AR C'HLAZ</b><br>Cormoran huppé (CH)<br><b>5 couples min.</b></div>`)[0];
+                popup_533fcdd3d0de218365e76f1e02a4f976.setContent(html_a8b7be445d74ec0684dd64507b667dec);
+            
+        
+
+        circle_marker_200ac818ac1bbdbe07c76225ffe802dc.bindPopup(popup_533fcdd3d0de218365e76f1e02a4f976)
+        ;
+
+        
+    
+    
+            circle_marker_200ac818ac1bbdbe07c76225ffe802dc.bindTooltip(
+                `<div>
+                     KASTELL AR C'HLAZ — 5 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_72648524a18789e7539787a18b8d9885 = L.circleMarker(
+                [48.7209341904804, -4.042686926776234],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_1b72964993fe0e1d46d4bee889fcc9ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aa1a531623ca345313b8567e7ec50bf2 = $(`<div id="html_aa1a531623ca345313b8567e7ec50bf2" style="width: 100.0%; height: 100.0%;"><b>KILVIC_HI_BRAS</b><br>Cormoran huppé (CH)<br><b>1 couples min.</b></div>`)[0];
+                popup_1b72964993fe0e1d46d4bee889fcc9ff.setContent(html_aa1a531623ca345313b8567e7ec50bf2);
+            
+        
+
+        circle_marker_72648524a18789e7539787a18b8d9885.bindPopup(popup_1b72964993fe0e1d46d4bee889fcc9ff)
+        ;
+
+        
+    
+    
+            circle_marker_72648524a18789e7539787a18b8d9885.bindTooltip(
+                `<div>
+                     KILVIC_HI_BRAS — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d9d4c0aa6eda4ace814540bca753855 = L.circleMarker(
+                [48.69090543201571, -3.8932932947235765],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.213203435596423, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_6da71c8b58810fcf7138d58672159c69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_27c2e9f6e3a4e7e4b5c5aa15ef34a7e1 = $(`<div id="html_27c2e9f6e3a4e7e4b5c5aa15ef34a7e1" style="width: 100.0%; height: 100.0%;"><b>RIKARD</b><br>Cormoran huppé (CH)<br><b>72 couples min.</b></div>`)[0];
+                popup_6da71c8b58810fcf7138d58672159c69.setContent(html_27c2e9f6e3a4e7e4b5c5aa15ef34a7e1);
+            
+        
+
+        circle_marker_0d9d4c0aa6eda4ace814540bca753855.bindPopup(popup_6da71c8b58810fcf7138d58672159c69)
+        ;
+
+        
+    
+    
+            circle_marker_0d9d4c0aa6eda4ace814540bca753855.bindTooltip(
+                `<div>
+                     RIKARD — 72 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_827ad34da906caaf5f4e19792e01885e = L.circleMarker(
+                [48.71927445933466, -4.036466702862435],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ea3f89f60e904631f1299ff78ff32647);
+        
+    
+        var popup_829a357c19ca99b91695619329a37efd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e7419689d8775a2e32d2f93b25b21f6c = $(`<div id="html_e7419689d8775a2e32d2f93b25b21f6c" style="width: 100.0%; height: 100.0%;"><b>ROCHE_SUD_AN_AERED\_(COTE_11)</b><br>Cormoran huppé (CH)<br><b>1 couples min.</b></div>`)[0];
+                popup_829a357c19ca99b91695619329a37efd.setContent(html_e7419689d8775a2e32d2f93b25b21f6c);
+            
+        
+
+        circle_marker_827ad34da906caaf5f4e19792e01885e.bindPopup(popup_829a357c19ca99b91695619329a37efd)
+        ;
+
+        
+    
+    
+            circle_marker_827ad34da906caaf5f4e19792e01885e.bindTooltip(
+                `<div>
+                     ROCHE_SUD_AN_AERED\_(COTE_11) — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_ea3f89f60e904631f1299ff78ff32647.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_e8d9dadb3cc23a0e629b0cda326647fa = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_9af3541387e97e66916626474b0b57e4 = L.circleMarker(
+                [48.69342944532674, -3.8849438266524654],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_9f20ca47bf1230e1a26cbeed675aa678 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3d9c3ca8abb79c4aea2c08a75e8339df = $(`<div id="html_3d9c3ca8abb79c4aea2c08a75e8339df" style="width: 100.0%; height: 100.0%;"><b>AR BEG LEMM</b><br>Goéland argenté (GA)<br><b>91 couples min.</b></div>`)[0];
+                popup_9f20ca47bf1230e1a26cbeed675aa678.setContent(html_3d9c3ca8abb79c4aea2c08a75e8339df);
+            
+        
+
+        circle_marker_9af3541387e97e66916626474b0b57e4.bindPopup(popup_9f20ca47bf1230e1a26cbeed675aa678)
+        ;
+
+        
+    
+    
+            circle_marker_9af3541387e97e66916626474b0b57e4.bindTooltip(
+                `<div>
+                     AR BEG LEMM — 91 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4d94d4963079d29a2a8b64343981a97c = L.circleMarker(
+                [48.694778992922245, -3.912669014043361],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_9f6c19d545923cefc414a8cf227565df = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0b30a6c0fe6951b30a3ce14113b4c035 = $(`<div id="html_0b30a6c0fe6951b30a3ce14113b4c035" style="width: 100.0%; height: 100.0%;"><b>AR C'HARO</b><br>Goéland argenté (GA)<br><b>1 couples min.</b></div>`)[0];
+                popup_9f6c19d545923cefc414a8cf227565df.setContent(html_0b30a6c0fe6951b30a3ce14113b4c035);
+            
+        
+
+        circle_marker_4d94d4963079d29a2a8b64343981a97c.bindPopup(popup_9f6c19d545923cefc414a8cf227565df)
+        ;
+
+        
+    
+    
+            circle_marker_4d94d4963079d29a2a8b64343981a97c.bindTooltip(
+                `<div>
+                     AR C'HARO — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7a00fd722d6b11cafd62a82935b0860e = L.circleMarker(
+                [48.70299014994546, -3.909457631585748],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_b05106ea08f3efac4a3c031d6646a414 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_798951378275aeca45bf9d3457eede09 = $(`<div id="html_798951378275aeca45bf9d3457eede09" style="width: 100.0%; height: 100.0%;"><b>AR C'HLAZ</b><br>Goéland argenté (GA)<br><b>4 couples min.</b></div>`)[0];
+                popup_b05106ea08f3efac4a3c031d6646a414.setContent(html_798951378275aeca45bf9d3457eede09);
+            
+        
+
+        circle_marker_7a00fd722d6b11cafd62a82935b0860e.bindPopup(popup_b05106ea08f3efac4a3c031d6646a414)
+        ;
+
+        
+    
+    
+            circle_marker_7a00fd722d6b11cafd62a82935b0860e.bindTooltip(
+                `<div>
+                     AR C'HLAZ — 4 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_811524382acede7d89816d7279a1442b = L.circleMarker(
+                [48.70413069498688, -3.911121129577506],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.330127018922193, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_f5c82a63c9e17cbada31eaf613e14f73 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7c9d98889b3a6cdb162c7edaa363d2a4 = $(`<div id="html_7c9d98889b3a6cdb162c7edaa363d2a4" style="width: 100.0%; height: 100.0%;"><b>AR C'HLAZ KOZ</b><br>Goéland argenté (GA)<br><b>3 couples min.</b></div>`)[0];
+                popup_f5c82a63c9e17cbada31eaf613e14f73.setContent(html_7c9d98889b3a6cdb162c7edaa363d2a4);
+            
+        
+
+        circle_marker_811524382acede7d89816d7279a1442b.bindPopup(popup_f5c82a63c9e17cbada31eaf613e14f73)
+        ;
+
+        
+    
+    
+            circle_marker_811524382acede7d89816d7279a1442b.bindTooltip(
+                `<div>
+                     AR C'HLAZ KOZ — 3 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1bc63a807da4cd79a9a385cb16b031f0 = L.circleMarker(
+                [48.70635208162485, -3.9039381399868947],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_9820a910a192ec414c82be30e5531ae8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b2e3d68bddd8afd863a662a76c3f4dc8 = $(`<div id="html_b2e3d68bddd8afd863a662a76c3f4dc8" style="width: 100.0%; height: 100.0%;"><b>AR VEZOU</b><br>Goéland argenté (GA)<br><b>36 couples min.</b></div>`)[0];
+                popup_9820a910a192ec414c82be30e5531ae8.setContent(html_b2e3d68bddd8afd863a662a76c3f4dc8);
+            
+        
+
+        circle_marker_1bc63a807da4cd79a9a385cb16b031f0.bindPopup(popup_9820a910a192ec414c82be30e5531ae8)
+        ;
+
+        
+    
+    
+            circle_marker_1bc63a807da4cd79a9a385cb16b031f0.bindTooltip(
+                `<div>
+                     AR VEZOU — 36 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_82cee0f1140638fb7fc7c06685166036 = L.circleMarker(
+                [48.74574996456485, -4.04061105497708],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.606601717798211, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_03493e4c323c5d701c500cb5c5a19ac0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7971a2114fc3accd0a781a0a5ab0c21e = $(`<div id="html_7971a2114fc3accd0a781a0a5ab0c21e" style="width: 100.0%; height: 100.0%;"><b>BEG_SEAC_H\_(POINTE_W_BATZ)</b><br>Goéland argenté (GA)<br><b>18 couples min.</b></div>`)[0];
+                popup_03493e4c323c5d701c500cb5c5a19ac0.setContent(html_7971a2114fc3accd0a781a0a5ab0c21e);
+            
+        
+
+        circle_marker_82cee0f1140638fb7fc7c06685166036.bindPopup(popup_03493e4c323c5d701c500cb5c5a19ac0)
+        ;
+
+        
+    
+    
+            circle_marker_82cee0f1140638fb7fc7c06685166036.bindTooltip(
+                `<div>
+                     BEG_SEAC_H\_(POINTE_W_BATZ) — 18 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_493a32743d59214503b31f035ec80e37 = L.circleMarker(
+                [48.67563892973014, -3.8843332852859644],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.123724356957945, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_554a5de4ad6e83f85edb4e3384ed0976 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b75d0e9438efe85cd84cab3b278ed9b = $(`<div id="html_3b75d0e9438efe85cd84cab3b278ed9b" style="width: 100.0%; height: 100.0%;"><b>CHÂTEAU DU TAUREAU</b><br>Goéland argenté (GA)<br><b>6 couples min.</b></div>`)[0];
+                popup_554a5de4ad6e83f85edb4e3384ed0976.setContent(html_3b75d0e9438efe85cd84cab3b278ed9b);
+            
+        
+
+        circle_marker_493a32743d59214503b31f035ec80e37.bindPopup(popup_554a5de4ad6e83f85edb4e3384ed0976)
+        ;
+
+        
+    
+    
+            circle_marker_493a32743d59214503b31f035ec80e37.bindTooltip(
+                `<div>
+                     CHÂTEAU DU TAUREAU — 6 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_080ff4cd3173861eb80f152ecdf3b78c = L.circleMarker(
+                [48.741321372332145, -4.009576883421786],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.123724356957945, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_8cf47a318a21ff0004a21dfb03fd8d5f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a76428271b509d23126c7a863594f7ef = $(`<div id="html_a76428271b509d23126c7a863594f7ef" style="width: 100.0%; height: 100.0%;"><b>ENEIZ N'EIN</b><br>Goéland argenté (GA)<br><b>6 couples min.</b></div>`)[0];
+                popup_8cf47a318a21ff0004a21dfb03fd8d5f.setContent(html_a76428271b509d23126c7a863594f7ef);
+            
+        
+
+        circle_marker_080ff4cd3173861eb80f152ecdf3b78c.bindPopup(popup_8cf47a318a21ff0004a21dfb03fd8d5f)
+        ;
+
+        
+    
+    
+            circle_marker_080ff4cd3173861eb80f152ecdf3b78c.bindTooltip(
+                `<div>
+                     ENEIZ N'EIN — 6 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3ee534e12506054973f4b13dc2a29c7d = L.circleMarker(
+                [48.68146535271268, -3.884271165706388],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.905694150420949, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_4512050b8e5ec2a6e3e20a4c5e5318aa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3bb028305faab7bb0eef7ccc0caba675 = $(`<div id="html_3bb028305faab7bb0eef7ccc0caba675" style="width: 100.0%; height: 100.0%;"><b>ENEZ AN TREZ</b><br>Goéland argenté (GA)<br><b>10 couples min.</b></div>`)[0];
+                popup_4512050b8e5ec2a6e3e20a4c5e5318aa.setContent(html_3bb028305faab7bb0eef7ccc0caba675);
+            
+        
+
+        circle_marker_3ee534e12506054973f4b13dc2a29c7d.bindPopup(popup_4512050b8e5ec2a6e3e20a4c5e5318aa)
+        ;
+
+        
+    
+    
+            circle_marker_3ee534e12506054973f4b13dc2a29c7d.bindTooltip(
+                `<div>
+                     ENEZ AN TREZ — 10 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2af3b59bc772fc0295e10a141a7b6b10 = L.circleMarker(
+                [48.7534721780474, -4.028065127215005],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.20690632574555, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_065f921caa08878f7e42e32152809d33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_25687b1165095e8d421810403a9d75a4 = $(`<div id="html_25687b1165095e8d421810403a9d75a4" style="width: 100.0%; height: 100.0%;"><b>ENEZ AR PRAD</b><br>Goéland argenté (GA)<br><b>37 couples min.</b></div>`)[0];
+                popup_065f921caa08878f7e42e32152809d33.setContent(html_25687b1165095e8d421810403a9d75a4);
+            
+        
+
+        circle_marker_2af3b59bc772fc0295e10a141a7b6b10.bindPopup(popup_065f921caa08878f7e42e32152809d33)
+        ;
+
+        
+    
+    
+            circle_marker_2af3b59bc772fc0295e10a141a7b6b10.bindTooltip(
+                `<div>
+                     ENEZ AR PRAD — 37 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_10b0b89b5937ff20a7b73225a066b508 = L.circleMarker(
+                [48.73970452304759, -4.001368905901844],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.36140661634507, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_0d24e6bfd2cd3c09217b66ee687fef98 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0235816d1b5583f2af7e33b52e7aacc8 = $(`<div id="html_0235816d1b5583f2af7e33b52e7aacc8" style="width: 100.0%; height: 100.0%;"><b>ENEZ DENVED</b><br>Goéland argenté (GA)<br><b>33 couples min.</b></div>`)[0];
+                popup_0d24e6bfd2cd3c09217b66ee687fef98.setContent(html_0235816d1b5583f2af7e33b52e7aacc8);
+            
+        
+
+        circle_marker_10b0b89b5937ff20a7b73225a066b508.bindPopup(popup_0d24e6bfd2cd3c09217b66ee687fef98)
+        ;
+
+        
+    
+    
+            circle_marker_10b0b89b5937ff20a7b73225a066b508.bindTooltip(
+                `<div>
+                     ENEZ DENVED — 33 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c0e42291da53bb1d7761629eec9372b = L.circleMarker(
+                [48.73294546832799, -3.9703889892376356],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_b1d2cffcb98f38bfd0e193e52082b710 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_94474ed8c8f2ba3e216000a8ce5b81a9 = $(`<div id="html_94474ed8c8f2ba3e216000a8ce5b81a9" style="width: 100.0%; height: 100.0%;"><b>ENEZ PIGUED</b><br>Goéland argenté (GA)<br><b>1 couples min.</b></div>`)[0];
+                popup_b1d2cffcb98f38bfd0e193e52082b710.setContent(html_94474ed8c8f2ba3e216000a8ce5b81a9);
+            
+        
+
+        circle_marker_2c0e42291da53bb1d7761629eec9372b.bindPopup(popup_b1d2cffcb98f38bfd0e193e52082b710)
+        ;
+
+        
+    
+    
+            circle_marker_2c0e42291da53bb1d7761629eec9372b.bindTooltip(
+                `<div>
+                     ENEZ PIGUED — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1128a692ae868d8ca28665698064d8ed = L.circleMarker(
+                [48.73621202372064, -3.970587721146269],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.905694150420949, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_55f0b52e2d212a690ba253e0b53012c8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_65202f0f8327f2ca34369e1c8794ffbb = $(`<div id="html_65202f0f8327f2ca34369e1c8794ffbb" style="width: 100.0%; height: 100.0%;"><b>ENEZ TI SAOZON</b><br>Goéland argenté (GA)<br><b>10 couples min.</b></div>`)[0];
+                popup_55f0b52e2d212a690ba253e0b53012c8.setContent(html_65202f0f8327f2ca34369e1c8794ffbb);
+            
+        
+
+        circle_marker_1128a692ae868d8ca28665698064d8ed.bindPopup(popup_55f0b52e2d212a690ba253e0b53012c8)
+        ;
+
+        
+    
+    
+            circle_marker_1128a692ae868d8ca28665698064d8ed.bindTooltip(
+                `<div>
+                     ENEZ TI SAOZON — 10 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_61b6a803614d0f710aaeba4e69457a60 = L.circleMarker(
+                [48.744780904008614, -3.9812111108413055],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.24744871391589, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_39fd370562d5faf22dcb0e3d027ddf14 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ae9151bc3db2e142004a09de1a22573e = $(`<div id="html_ae9151bc3db2e142004a09de1a22573e" style="width: 100.0%; height: 100.0%;"><b>ENEZ VEY</b><br>Goéland argenté (GA)<br><b>24 couples min.</b></div>`)[0];
+                popup_39fd370562d5faf22dcb0e3d027ddf14.setContent(html_ae9151bc3db2e142004a09de1a22573e);
+            
+        
+
+        circle_marker_61b6a803614d0f710aaeba4e69457a60.bindPopup(popup_39fd370562d5faf22dcb0e3d027ddf14)
+        ;
+
+        
+    
+    
+            circle_marker_61b6a803614d0f710aaeba4e69457a60.bindTooltip(
+                `<div>
+                     ENEZ VEY — 24 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0ad0d1de9b8a744bf10da9eaf83db12 = L.circleMarker(
+                [48.68620847180292, -3.8840154961934035],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_2225ec8e405afe23b8c4460f0be8d508 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_be3154722dc9f2e14fff470f52325768 = $(`<div id="html_be3154722dc9f2e14fff470f52325768" style="width: 100.0%; height: 100.0%;"><b>ENEZ WARGEZ</b><br>Goéland argenté (GA)<br><b>111 couples min.</b></div>`)[0];
+                popup_2225ec8e405afe23b8c4460f0be8d508.setContent(html_be3154722dc9f2e14fff470f52325768);
+            
+        
+
+        circle_marker_e0ad0d1de9b8a744bf10da9eaf83db12.bindPopup(popup_2225ec8e405afe23b8c4460f0be8d508)
+        ;
+
+        
+    
+    
+            circle_marker_e0ad0d1de9b8a744bf10da9eaf83db12.bindTooltip(
+                `<div>
+                     ENEZ WARGEZ — 111 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_925e9048a62181309dcb7ed76252ac3e = L.circleMarker(
+                [48.67347587472872, -3.888518189497678],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.364916731037084, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_ce81bd658d0f75a4ec27a66eb6454023 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f3dccc199e0427a8e45b10c42d964b09 = $(`<div id="html_f3dccc199e0427a8e45b10c42d964b09" style="width: 100.0%; height: 100.0%;"><b>ILE LOUET</b><br>Goéland argenté (GA)<br><b>60 couples min.</b></div>`)[0];
+                popup_ce81bd658d0f75a4ec27a66eb6454023.setContent(html_f3dccc199e0427a8e45b10c42d964b09);
+            
+        
+
+        circle_marker_925e9048a62181309dcb7ed76252ac3e.bindPopup(popup_ce81bd658d0f75a4ec27a66eb6454023)
+        ;
+
+        
+    
+    
+            circle_marker_925e9048a62181309dcb7ed76252ac3e.bindTooltip(
+                `<div>
+                     ILE LOUET — 60 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ebf4cbf1992c2220644e0235360fbd30 = L.circleMarker(
+                [48.672569302072006, -3.8754711911609947],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_17128ab7a9a899e9c838d3d365c4f9c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a6cadacbf6c0fd5603ab09b0857a6ad = $(`<div id="html_8a6cadacbf6c0fd5603ab09b0857a6ad" style="width: 100.0%; height: 100.0%;"><b>ILE NOIRE</b><br>Goéland argenté (GA)<br><b>1 couples min.</b></div>`)[0];
+                popup_17128ab7a9a899e9c838d3d365c4f9c4.setContent(html_8a6cadacbf6c0fd5603ab09b0857a6ad);
+            
+        
+
+        circle_marker_ebf4cbf1992c2220644e0235360fbd30.bindPopup(popup_17128ab7a9a899e9c838d3d365c4f9c4)
+        ;
+
+        
+    
+    
+            circle_marker_ebf4cbf1992c2220644e0235360fbd30.bindTooltip(
+                `<div>
+                     ILE NOIRE — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3f1990056bc64c4780124d476800f107 = L.circleMarker(
+                [48.713555538328535, -4.048333269515569],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.307764064044152, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_3ce43347f9199a8aa1af1638764c5f87 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ce52665f23128bcf5e2cb1ccc25afe27 = $(`<div id="html_ce52665f23128bcf5e2cb1ccc25afe27" style="width: 100.0%; height: 100.0%;"><b>ILE VERTE SANTEC</b><br>Goéland argenté (GA)<br><b>17 couples min.</b></div>`)[0];
+                popup_3ce43347f9199a8aa1af1638764c5f87.setContent(html_ce52665f23128bcf5e2cb1ccc25afe27);
+            
+        
+
+        circle_marker_3f1990056bc64c4780124d476800f107.bindPopup(popup_3ce43347f9199a8aa1af1638764c5f87)
+        ;
+
+        
+    
+    
+            circle_marker_3f1990056bc64c4780124d476800f107.bindTooltip(
+                `<div>
+                     ILE VERTE SANTEC — 17 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c227ae3e06f74a6b3819ea03f71ada5d = L.circleMarker(
+                [48.74011109108813, -4.000555553733421],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_3ee174cca278627b286a662bd4cb9ec5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bfb204d0e637bdebebcc59c47a75d689 = $(`<div id="html_bfb204d0e637bdebebcc59c47a75d689" style="width: 100.0%; height: 100.0%;"><b>ILOT INTERMEDIAIRE DENVED</b><br>Goéland argenté (GA)<br><b>1 couples min.</b></div>`)[0];
+                popup_3ee174cca278627b286a662bd4cb9ec5.setContent(html_bfb204d0e637bdebebcc59c47a75d689);
+            
+        
+
+        circle_marker_c227ae3e06f74a6b3819ea03f71ada5d.bindPopup(popup_3ee174cca278627b286a662bd4cb9ec5)
+        ;
+
+        
+    
+    
+            circle_marker_c227ae3e06f74a6b3819ea03f71ada5d.bindTooltip(
+                `<div>
+                     ILOT INTERMEDIAIRE DENVED — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eff8a179e26a06ffe2beb327bca95ed0 = L.circleMarker(
+                [48.74069730610799, -4.030947166285201],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.32050807568877, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_07df81f91ed9e6eba573ef3310e24b1b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3cf4f56c031d6b0dc869b1e50748ef54 = $(`<div id="html_3cf4f56c031d6b0dc869b1e50748ef54" style="width: 100.0%; height: 100.0%;"><b>ILOT\_(10)\_ANSE_DE_LANNOU_BIHAN\_(BATZ)</b><br>Goéland argenté (GA)<br><b>48 couples min.</b></div>`)[0];
+                popup_07df81f91ed9e6eba573ef3310e24b1b.setContent(html_3cf4f56c031d6b0dc869b1e50748ef54);
+            
+        
+
+        circle_marker_eff8a179e26a06ffe2beb327bca95ed0.bindPopup(popup_07df81f91ed9e6eba573ef3310e24b1b)
+        ;
+
+        
+    
+    
+            circle_marker_eff8a179e26a06ffe2beb327bca95ed0.bindTooltip(
+                `<div>
+                     ILOT\_(10)\_ANSE_DE_LANNOU_BIHAN\_(BATZ) — 48 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64a45905daff461fde531c47feeb491f = L.circleMarker(
+                [48.738925250184586, -3.995698902059891],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.660254037844386, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_e34355c9b97bca72cd37aa5683dc8cdb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fcddc8a109ab5ec071d40297490aecc0 = $(`<div id="html_fcddc8a109ab5ec071d40297490aecc0" style="width: 100.0%; height: 100.0%;"><b>ILOT_EST_PENN_LEOG</b><br>Goéland argenté (GA)<br><b>12 couples min.</b></div>`)[0];
+                popup_e34355c9b97bca72cd37aa5683dc8cdb.setContent(html_fcddc8a109ab5ec071d40297490aecc0);
+            
+        
+
+        circle_marker_64a45905daff461fde531c47feeb491f.bindPopup(popup_e34355c9b97bca72cd37aa5683dc8cdb)
+        ;
+
+        
+    
+    
+            circle_marker_64a45905daff461fde531c47feeb491f.bindTooltip(
+                `<div>
+                     ILOT_EST_PENN_LEOG — 12 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_12d3df31d9eebe8cf64934ecc4d085fa = L.circleMarker(
+                [48.73854083801258, -3.9985618950076685],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_610414f072ac96139413ac609a124b85 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_29256eb3b679e4de556e4d9ceaa669d2 = $(`<div id="html_29256eb3b679e4de556e4d9ceaa669d2" style="width: 100.0%; height: 100.0%;"><b>ILOT_OUEST_PENN_LEOG</b><br>Goéland argenté (GA)<br><b>1 couples min.</b></div>`)[0];
+                popup_610414f072ac96139413ac609a124b85.setContent(html_29256eb3b679e4de556e4d9ceaa669d2);
+            
+        
+
+        circle_marker_12d3df31d9eebe8cf64934ecc4d085fa.bindPopup(popup_610414f072ac96139413ac609a124b85)
+        ;
+
+        
+    
+    
+            circle_marker_12d3df31d9eebe8cf64934ecc4d085fa.bindTooltip(
+                `<div>
+                     ILOT_OUEST_PENN_LEOG — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8ad89d79886389dad71a05654d07dfe = L.circleMarker(
+                [48.69974503344873, -3.9069929833293755],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_25cd41ae4ecc7f826d7cfb5d1e290698 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_20d4d3ed1c0aaf2427ec489efaf532a0 = $(`<div id="html_20d4d3ed1c0aaf2427ec489efaf532a0" style="width: 100.0%; height: 100.0%;"><b>KASTELL AR C'HLAZ</b><br>Goéland argenté (GA)<br><b>2 couples min.</b></div>`)[0];
+                popup_25cd41ae4ecc7f826d7cfb5d1e290698.setContent(html_20d4d3ed1c0aaf2427ec489efaf532a0);
+            
+        
+
+        circle_marker_e8ad89d79886389dad71a05654d07dfe.bindPopup(popup_25cd41ae4ecc7f826d7cfb5d1e290698)
+        ;
+
+        
+    
+    
+            circle_marker_e8ad89d79886389dad71a05654d07dfe.bindTooltip(
+                `<div>
+                     KASTELL AR C'HLAZ — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f4e831ed35b312a3971b7658f9947250 = L.circleMarker(
+                [48.74044237602354, -4.011960929791605],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.071067811865476, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_6f1e6606b446ca98ce05afdf9c3492cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0fd8ab03c89b41782cd8f23dd6ad1836 = $(`<div id="html_0fd8ab03c89b41782cd8f23dd6ad1836" style="width: 100.0%; height: 100.0%;"><b>KERNOK</b><br>Goéland argenté (GA)<br><b>8 couples min.</b></div>`)[0];
+                popup_6f1e6606b446ca98ce05afdf9c3492cf.setContent(html_0fd8ab03c89b41782cd8f23dd6ad1836);
+            
+        
+
+        circle_marker_f4e831ed35b312a3971b7658f9947250.bindPopup(popup_6f1e6606b446ca98ce05afdf9c3492cf)
+        ;
+
+        
+    
+    
+            circle_marker_f4e831ed35b312a3971b7658f9947250.bindTooltip(
+                `<div>
+                     KERNOK — 8 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_795ee5bc3c5776c7fed5cb9034a13aec = L.circleMarker(
+                [48.7209341904804, -4.042686926776234],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.123724356957945, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_eba6971f4f8f5eda51e1d5a701248ee0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed5b8ca16032b7d1e11809e5f5903eb8 = $(`<div id="html_ed5b8ca16032b7d1e11809e5f5903eb8" style="width: 100.0%; height: 100.0%;"><b>KILVIC_HI_BRAS</b><br>Goéland argenté (GA)<br><b>6 couples min.</b></div>`)[0];
+                popup_eba6971f4f8f5eda51e1d5a701248ee0.setContent(html_ed5b8ca16032b7d1e11809e5f5903eb8);
+            
+        
+
+        circle_marker_795ee5bc3c5776c7fed5cb9034a13aec.bindPopup(popup_eba6971f4f8f5eda51e1d5a701248ee0)
+        ;
+
+        
+    
+    
+            circle_marker_795ee5bc3c5776c7fed5cb9034a13aec.bindTooltip(
+                `<div>
+                     KILVIC_HI_BRAS — 6 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_be7148e4e2908eba681ca6a7f0170300 = L.circleMarker(
+                [48.71696116257796, -4.049962466927316],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.590169943749475, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_ee56ca7adb4b3d09fca3b0c5f798f142 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4a76b44c9c942e8960b0e869adf3f38 = $(`<div id="html_c4a76b44c9c942e8960b0e869adf3f38" style="width: 100.0%; height: 100.0%;"><b>KLOC_H_GWENN</b><br>Goéland argenté (GA)<br><b>5 couples min.</b></div>`)[0];
+                popup_ee56ca7adb4b3d09fca3b0c5f798f142.setContent(html_c4a76b44c9c942e8960b0e869adf3f38);
+            
+        
+
+        circle_marker_be7148e4e2908eba681ca6a7f0170300.bindPopup(popup_ee56ca7adb4b3d09fca3b0c5f798f142)
+        ;
+
+        
+    
+    
+            circle_marker_be7148e4e2908eba681ca6a7f0170300.bindTooltip(
+                `<div>
+                     KLOC_H_GWENN — 5 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6eaf32f49b238a893f3f45f5ecc5af8c = L.circleMarker(
+                [48.73983330573677, -4.026222165608482],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_fac370689210f979cc89a5df6d170279 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4679872fa0d0d0573bde0efdd31d89d7 = $(`<div id="html_4679872fa0d0d0573bde0efdd31d89d7" style="width: 100.0%; height: 100.0%;"><b>LANNOU BIHAN</b><br>Goéland argenté (GA)<br><b>1 couples min.</b></div>`)[0];
+                popup_fac370689210f979cc89a5df6d170279.setContent(html_4679872fa0d0d0573bde0efdd31d89d7);
+            
+        
+
+        circle_marker_6eaf32f49b238a893f3f45f5ecc5af8c.bindPopup(popup_fac370689210f979cc89a5df6d170279)
+        ;
+
+        
+    
+    
+            circle_marker_6eaf32f49b238a893f3f45f5ecc5af8c.bindTooltip(
+                `<div>
+                     LANNOU BIHAN — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8993f5407e2ee5fb4cc38b5b1da9ba9 = L.circleMarker(
+                [48.71627106267224, -3.9635397221264403],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_92a498ba5de5ccaa9a8119695b5ab2e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fd164321815e1085939dde961901a7cc = $(`<div id="html_fd164321815e1085939dde961901a7cc" style="width: 100.0%; height: 100.0%;"><b>MOLE PORT DE PLAISANCE ROSCOFF</b><br>Goéland argenté (GA)<br><b>36 couples min.</b></div>`)[0];
+                popup_92a498ba5de5ccaa9a8119695b5ab2e3.setContent(html_fd164321815e1085939dde961901a7cc);
+            
+        
+
+        circle_marker_e8993f5407e2ee5fb4cc38b5b1da9ba9.bindPopup(popup_92a498ba5de5ccaa9a8119695b5ab2e3)
+        ;
+
+        
+    
+    
+            circle_marker_e8993f5407e2ee5fb4cc38b5b1da9ba9.bindTooltip(
+                `<div>
+                     MOLE PORT DE PLAISANCE ROSCOFF — 36 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c92d47df18bb544015441257b1ed7a1 = L.circleMarker(
+                [48.737138849771426, -3.9933055242595037],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.853571071357127, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_0f813b58082527da973db3ea382063b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_108d0c4f25041709908abd43c90a8bcd = $(`<div id="html_108d0c4f25041709908abd43c90a8bcd" style="width: 100.0%; height: 100.0%;"><b>PENN AR C'HLEGUER (POINTE_SE_BATZ)</b><br>Goéland argenté (GA)<br><b>51 couples min.</b></div>`)[0];
+                popup_0f813b58082527da973db3ea382063b7.setContent(html_108d0c4f25041709908abd43c90a8bcd);
+            
+        
+
+        circle_marker_5c92d47df18bb544015441257b1ed7a1.bindPopup(popup_0f813b58082527da973db3ea382063b7)
+        ;
+
+        
+    
+    
+            circle_marker_5c92d47df18bb544015441257b1ed7a1.bindTooltip(
+                `<div>
+                     PENN AR C'HLEGUER (POINTE_SE_BATZ) — 51 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dbd3a5263fedbb88d99684b0b2a777ac = L.circleMarker(
+                [48.71478480603078, -4.050783491993905],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.123724356957945, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_951e471b1b2e7d9088341e305bbb7a8b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aff3703e69242ba3d348b9fbb4c42cd3 = $(`<div id="html_aff3703e69242ba3d348b9fbb4c42cd3" style="width: 100.0%; height: 100.0%;"><b>PIL_AN_UGENT_VAN</b><br>Goéland argenté (GA)<br><b>6 couples min.</b></div>`)[0];
+                popup_951e471b1b2e7d9088341e305bbb7a8b.setContent(html_aff3703e69242ba3d348b9fbb4c42cd3);
+            
+        
+
+        circle_marker_dbd3a5263fedbb88d99684b0b2a777ac.bindPopup(popup_951e471b1b2e7d9088341e305bbb7a8b)
+        ;
+
+        
+    
+    
+            circle_marker_dbd3a5263fedbb88d99684b0b2a777ac.bindTooltip(
+                `<div>
+                     PIL_AN_UGENT_VAN — 6 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1876d1a86c893c00bc6e63bcac7bdba = L.circleMarker(
+                [48.72362761968834, -4.054863081844366],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_0f9f6f9623ca3d5a097c0a0622ed855d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_285cc3c167027c51f293ff1ab88f89ac = $(`<div id="html_285cc3c167027c51f293ff1ab88f89ac" style="width: 100.0%; height: 100.0%;"><b>PIL_AR_MAILHARD</b><br>Goéland argenté (GA)<br><b>4 couples min.</b></div>`)[0];
+                popup_0f9f6f9623ca3d5a097c0a0622ed855d.setContent(html_285cc3c167027c51f293ff1ab88f89ac);
+            
+        
+
+        circle_marker_e1876d1a86c893c00bc6e63bcac7bdba.bindPopup(popup_0f9f6f9623ca3d5a097c0a0622ed855d)
+        ;
+
+        
+    
+    
+            circle_marker_e1876d1a86c893c00bc6e63bcac7bdba.bindTooltip(
+                `<div>
+                     PIL_AR_MAILHARD — 4 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a1b3ccc19945b055b581e4e38696153 = L.circleMarker(
+                [48.74030556285866, -4.003416694056139],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.682458365518542, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_0da0cf5e7c035f7467d1fb0e53c6a545 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ff729bf1449aad9d44c153dbe548505 = $(`<div id="html_0ff729bf1449aad9d44c153dbe548505" style="width: 100.0%; height: 100.0%;"><b>PORZ ALLIOU</b><br>Goéland argenté (GA)<br><b>15 couples min.</b></div>`)[0];
+                popup_0da0cf5e7c035f7467d1fb0e53c6a545.setContent(html_0ff729bf1449aad9d44c153dbe548505);
+            
+        
+
+        circle_marker_6a1b3ccc19945b055b581e4e38696153.bindPopup(popup_0da0cf5e7c035f7467d1fb0e53c6a545)
+        ;
+
+        
+    
+    
+            circle_marker_6a1b3ccc19945b055b581e4e38696153.bindTooltip(
+                `<div>
+                     PORZ ALLIOU — 15 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_310274c3c0a5c17fddd716cd1f43df5e = L.circleMarker(
+                [48.74858334771484, -4.0342778231059775],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_7befd03b1ea01777a0ca74e064f2df6b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2ca8d0aa10d325d3eb978ac73ab4ad6f = $(`<div id="html_2ca8d0aa10d325d3eb978ac73ab4ad6f" style="width: 100.0%; height: 100.0%;"><b>PORZ AR RAOUENNE</b><br>Goéland argenté (GA)<br><b>4 couples min.</b></div>`)[0];
+                popup_7befd03b1ea01777a0ca74e064f2df6b.setContent(html_2ca8d0aa10d325d3eb978ac73ab4ad6f);
+            
+        
+
+        circle_marker_310274c3c0a5c17fddd716cd1f43df5e.bindPopup(popup_7befd03b1ea01777a0ca74e064f2df6b)
+        ;
+
+        
+    
+    
+            circle_marker_310274c3c0a5c17fddd716cd1f43df5e.bindTooltip(
+                `<div>
+                     PORZ AR RAOUENNE — 4 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_deb965de6a29eb67600b027a3185621c = L.circleMarker(
+                [48.7506111231929, -4.004000064242908],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.614378277661476, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_69cdeb2f922a9f417bd55002d00d62d1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f3689342b0e9196051b91d05e5539e2d = $(`<div id="html_f3689342b0e9196051b91d05e5539e2d" style="width: 100.0%; height: 100.0%;"><b>PORZ MELLOC</b><br>Goéland argenté (GA)<br><b>7 couples min.</b></div>`)[0];
+                popup_69cdeb2f922a9f417bd55002d00d62d1.setContent(html_f3689342b0e9196051b91d05e5539e2d);
+            
+        
+
+        circle_marker_deb965de6a29eb67600b027a3185621c.bindPopup(popup_69cdeb2f922a9f417bd55002d00d62d1)
+        ;
+
+        
+    
+    
+            circle_marker_deb965de6a29eb67600b027a3185621c.bindTooltip(
+                `<div>
+                     PORZ MELLOC — 7 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d4162b8d7702948321172121d7cd340 = L.circleMarker(
+                [48.72423927753214, -4.05503461711733],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.330127018922193, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_57a70aa7bb8e6d7f917b2c1dd18b150a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_47fa4a7c8e2a9b884c46de95e2961f57 = $(`<div id="html_47fa4a7c8e2a9b884c46de95e2961f57" style="width: 100.0%; height: 100.0%;"><b>REC_HIER_DON:(15)\_ET_ROCHES_NW</b><br>Goéland argenté (GA)<br><b>3 couples min.</b></div>`)[0];
+                popup_57a70aa7bb8e6d7f917b2c1dd18b150a.setContent(html_47fa4a7c8e2a9b884c46de95e2961f57);
+            
+        
+
+        circle_marker_0d4162b8d7702948321172121d7cd340.bindPopup(popup_57a70aa7bb8e6d7f917b2c1dd18b150a)
+        ;
+
+        
+    
+    
+            circle_marker_0d4162b8d7702948321172121d7cd340.bindTooltip(
+                `<div>
+                     REC_HIER_DON:(15)\_ET_ROCHES_NW — 3 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5edadecfa58a1e82a713cef7fc16be57 = L.circleMarker(
+                [48.72253135815489, -4.052122979013306],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_9e778e8f985b190e4540dc32b36d7690 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c3039a02fb0b406220936620d08190a4 = $(`<div id="html_c3039a02fb0b406220936620d08190a4" style="width: 100.0%; height: 100.0%;"><b>REC_HIER_DON_CENTRE_NON_COTE</b><br>Goéland argenté (GA)<br><b>9 couples min.</b></div>`)[0];
+                popup_9e778e8f985b190e4540dc32b36d7690.setContent(html_c3039a02fb0b406220936620d08190a4);
+            
+        
+
+        circle_marker_5edadecfa58a1e82a713cef7fc16be57.bindPopup(popup_9e778e8f985b190e4540dc32b36d7690)
+        ;
+
+        
+    
+    
+            circle_marker_5edadecfa58a1e82a713cef7fc16be57.bindTooltip(
+                `<div>
+                     REC_HIER_DON_CENTRE_NON_COTE — 9 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4184f702a778fb293372ef4ed69544ae = L.circleMarker(
+                [48.69090543201571, -3.8932932947235765],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.583123951776997, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_9c481367453845c8f8bd70a433d62618 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6cd10214593208facb55ffb1f0fb1e67 = $(`<div id="html_6cd10214593208facb55ffb1f0fb1e67" style="width: 100.0%; height: 100.0%;"><b>RIKARD</b><br>Goéland argenté (GA)<br><b>44 couples min.</b></div>`)[0];
+                popup_9c481367453845c8f8bd70a433d62618.setContent(html_6cd10214593208facb55ffb1f0fb1e67);
+            
+        
+
+        circle_marker_4184f702a778fb293372ef4ed69544ae.bindPopup(popup_9c481367453845c8f8bd70a433d62618)
+        ;
+
+        
+    
+    
+            circle_marker_4184f702a778fb293372ef4ed69544ae.bindTooltip(
+                `<div>
+                     RIKARD — 44 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f9eb6ecd5eb9d84e5bed7e82357c124b = L.circleMarker(
+                [48.71927445933466, -4.036466702862435],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.071067811865476, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_64bbae125ecf8e790dcb848fdb2f4111 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_07a33023399f28b685a2775fd8b1938b = $(`<div id="html_07a33023399f28b685a2775fd8b1938b" style="width: 100.0%; height: 100.0%;"><b>ROCHE_SUD_AN_AERED\_(COTE_11)</b><br>Goéland argenté (GA)<br><b>8 couples min.</b></div>`)[0];
+                popup_64bbae125ecf8e790dcb848fdb2f4111.setContent(html_07a33023399f28b685a2775fd8b1938b);
+            
+        
+
+        circle_marker_f9eb6ecd5eb9d84e5bed7e82357c124b.bindPopup(popup_64bbae125ecf8e790dcb848fdb2f4111)
+        ;
+
+        
+    
+    
+            circle_marker_f9eb6ecd5eb9d84e5bed7e82357c124b.bindTooltip(
+                `<div>
+                     ROCHE_SUD_AN_AERED\_(COTE_11) — 8 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_42f3a0a04bbc37caf9316c8bfd40ec04 = L.circleMarker(
+                [48.71820124324436, -4.04013733226023],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.071067811865476, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_70dcc3e77c800a5bffa17a03129c6bb8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a73db4c51fbe8f5a293d0a6a87258a1c = $(`<div id="html_a73db4c51fbe8f5a293d0a6a87258a1c" style="width: 100.0%; height: 100.0%;"><b>ROC_H_AR_SKOUL_VRAS</b><br>Goéland argenté (GA)<br><b>8 couples min.</b></div>`)[0];
+                popup_70dcc3e77c800a5bffa17a03129c6bb8.setContent(html_a73db4c51fbe8f5a293d0a6a87258a1c);
+            
+        
+
+        circle_marker_42f3a0a04bbc37caf9316c8bfd40ec04.bindPopup(popup_70dcc3e77c800a5bffa17a03129c6bb8)
+        ;
+
+        
+    
+    
+            circle_marker_42f3a0a04bbc37caf9316c8bfd40ec04.bindTooltip(
+                `<div>
+                     ROC_H_AR_SKOUL_VRAS — 8 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_649c31a60f2e03554a7a34005fad35f4 = L.circleMarker(
+                [48.71577042299111, -4.041906114121634],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_cc20125f668724cd501761de8b7664bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d918832e744ec1b15fa9c5200ffa344 = $(`<div id="html_9d918832e744ec1b15fa9c5200ffa344" style="width: 100.0%; height: 100.0%;"><b>ROC_H_LOUET</b><br>Goéland argenté (GA)<br><b>2 couples min.</b></div>`)[0];
+                popup_cc20125f668724cd501761de8b7664bf.setContent(html_9d918832e744ec1b15fa9c5200ffa344);
+            
+        
+
+        circle_marker_649c31a60f2e03554a7a34005fad35f4.bindPopup(popup_cc20125f668724cd501761de8b7664bf)
+        ;
+
+        
+    
+    
+            circle_marker_649c31a60f2e03554a7a34005fad35f4.bindTooltip(
+                `<div>
+                     ROC_H_LOUET — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c30c616b5e35a9d93bc2f7b95e6e01d = L.circleMarker(
+                [48.713897823094406, -4.051573404722678],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.590169943749475, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_c9160a9223e6bfe9c8ac0f9fa642b266 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c7b8b97d51764a0b7a405b02718499a = $(`<div id="html_4c7b8b97d51764a0b7a405b02718499a" style="width: 100.0%; height: 100.0%;"><b>ROC_H_SANTEG</b><br>Goéland argenté (GA)<br><b>5 couples min.</b></div>`)[0];
+                popup_c9160a9223e6bfe9c8ac0f9fa642b266.setContent(html_4c7b8b97d51764a0b7a405b02718499a);
+            
+        
+
+        circle_marker_2c30c616b5e35a9d93bc2f7b95e6e01d.bindPopup(popup_c9160a9223e6bfe9c8ac0f9fa642b266)
+        ;
+
+        
+    
+    
+            circle_marker_2c30c616b5e35a9d93bc2f7b95e6e01d.bindTooltip(
+                `<div>
+                     ROC_H_SANTEG — 5 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d2c94a9e648eb1199116fdc7dd4d68ba = L.circleMarker(
+                [48.71398597656751, -4.053241689590712],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.123724356957945, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_58c406dbca28229c42a2d98a60ac93ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_429052f7a066bd41b28e171946578aa2 = $(`<div id="html_429052f7a066bd41b28e171946578aa2" style="width: 100.0%; height: 100.0%;"><b>ROC_H_SANTEG_LETON</b><br>Goéland argenté (GA)<br><b>6 couples min.</b></div>`)[0];
+                popup_58c406dbca28229c42a2d98a60ac93ff.setContent(html_429052f7a066bd41b28e171946578aa2);
+            
+        
+
+        circle_marker_d2c94a9e648eb1199116fdc7dd4d68ba.bindPopup(popup_58c406dbca28229c42a2d98a60ac93ff)
+        ;
+
+        
+    
+    
+            circle_marker_d2c94a9e648eb1199116fdc7dd4d68ba.bindTooltip(
+                `<div>
+                     ROC_H_SANTEG_LETON — 6 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb218f56b5a38ab832ded22daaee4786 = L.circleMarker(
+                [48.71519130767364, -4.054258541492474],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.614378277661476, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_25710e74df92bfc2dc73f8707bcbb929 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66aa27a1e38e0e1d3dd8970f2b7010a9 = $(`<div id="html_66aa27a1e38e0e1d3dd8970f2b7010a9" style="width: 100.0%; height: 100.0%;"><b>ROC_H_SANTEG_VRAS</b><br>Goéland argenté (GA)<br><b>7 couples min.</b></div>`)[0];
+                popup_25710e74df92bfc2dc73f8707bcbb929.setContent(html_66aa27a1e38e0e1d3dd8970f2b7010a9);
+            
+        
+
+        circle_marker_fb218f56b5a38ab832ded22daaee4786.bindPopup(popup_25710e74df92bfc2dc73f8707bcbb929)
+        ;
+
+        
+    
+    
+            circle_marker_fb218f56b5a38ab832ded22daaee4786.bindTooltip(
+                `<div>
+                     ROC_H_SANTEG_VRAS — 7 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e074dc3bfff41f0033bd2a40428e6cdc = L.circleMarker(
+                [48.701159164201144, -3.908966284543768],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.590169943749475, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8d9dadb3cc23a0e629b0cda326647fa);
+        
+    
+        var popup_9ce5b35b833a9d37e3dfcd600c1509ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_31c5599300e0990b85aaef6eac2231c0 = $(`<div id="html_31c5599300e0990b85aaef6eac2231c0" style="width: 100.0%; height: 100.0%;"><b>TOULLIG ARC HAN</b><br>Goéland argenté (GA)<br><b>5 couples min.</b></div>`)[0];
+                popup_9ce5b35b833a9d37e3dfcd600c1509ff.setContent(html_31c5599300e0990b85aaef6eac2231c0);
+            
+        
+
+        circle_marker_e074dc3bfff41f0033bd2a40428e6cdc.bindPopup(popup_9ce5b35b833a9d37e3dfcd600c1509ff)
+        ;
+
+        
+    
+    
+            circle_marker_e074dc3bfff41f0033bd2a40428e6cdc.bindTooltip(
+                `<div>
+                     TOULLIG ARC HAN — 5 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_e8d9dadb3cc23a0e629b0cda326647fa.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_68d030ef382f0ab9bfcac5976a5ff9b9 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_4068ef4003527a09665cbf89c159db3b = L.circleMarker(
+                [48.69342944532674, -3.8849438266524654],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_8c5606cbad07a45dd395fb5fdad47c46 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4a4ebae81bc06226c2aa634f8fbd9b40 = $(`<div id="html_4a4ebae81bc06226c2aa634f8fbd9b40" style="width: 100.0%; height: 100.0%;"><b>AR BEG LEMM</b><br>Goéland brun (GB)<br><b>1 couples min.</b></div>`)[0];
+                popup_8c5606cbad07a45dd395fb5fdad47c46.setContent(html_4a4ebae81bc06226c2aa634f8fbd9b40);
+            
+        
+
+        circle_marker_4068ef4003527a09665cbf89c159db3b.bindPopup(popup_8c5606cbad07a45dd395fb5fdad47c46)
+        ;
+
+        
+    
+    
+            circle_marker_4068ef4003527a09665cbf89c159db3b.bindTooltip(
+                `<div>
+                     AR BEG LEMM — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08f9d4f29d0d49a913efde03c43140eb = L.circleMarker(
+                [48.74574996456485, -4.04061105497708],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.590169943749475, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_79a861326b48a79eeef3b3668d03418e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_705b5425a71e3816b2ea4a5e5d42bfc0 = $(`<div id="html_705b5425a71e3816b2ea4a5e5d42bfc0" style="width: 100.0%; height: 100.0%;"><b>BEG_SEAC_H\_(POINTE_W_BATZ)</b><br>Goéland brun (GB)<br><b>5 couples min.</b></div>`)[0];
+                popup_79a861326b48a79eeef3b3668d03418e.setContent(html_705b5425a71e3816b2ea4a5e5d42bfc0);
+            
+        
+
+        circle_marker_08f9d4f29d0d49a913efde03c43140eb.bindPopup(popup_79a861326b48a79eeef3b3668d03418e)
+        ;
+
+        
+    
+    
+            circle_marker_08f9d4f29d0d49a913efde03c43140eb.bindTooltip(
+                `<div>
+                     BEG_SEAC_H\_(POINTE_W_BATZ) — 5 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b7f8c6196dabb25855bac528bde78ec1 = L.circleMarker(
+                [48.7534721780474, -4.028065127215005],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.590169943749475, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_503ed7105b1da696b2aec51b6c3dadf1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_00dc63cb1f52b5b6ac716e814ec5d401 = $(`<div id="html_00dc63cb1f52b5b6ac716e814ec5d401" style="width: 100.0%; height: 100.0%;"><b>ENEZ AR PRAD</b><br>Goéland brun (GB)<br><b>5 couples min.</b></div>`)[0];
+                popup_503ed7105b1da696b2aec51b6c3dadf1.setContent(html_00dc63cb1f52b5b6ac716e814ec5d401);
+            
+        
+
+        circle_marker_b7f8c6196dabb25855bac528bde78ec1.bindPopup(popup_503ed7105b1da696b2aec51b6c3dadf1)
+        ;
+
+        
+    
+    
+            circle_marker_b7f8c6196dabb25855bac528bde78ec1.bindTooltip(
+                `<div>
+                     ENEZ AR PRAD — 5 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7c2e1339ac75f6aa5cb8527b7f41452c = L.circleMarker(
+                [48.73970452304759, -4.001368905901844],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_730612a42306cdeee5037e0beac2d219 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9281fe5a3da942e212c8ca828fe16e47 = $(`<div id="html_9281fe5a3da942e212c8ca828fe16e47" style="width: 100.0%; height: 100.0%;"><b>ENEZ DENVED</b><br>Goéland brun (GB)<br><b>4 couples min.</b></div>`)[0];
+                popup_730612a42306cdeee5037e0beac2d219.setContent(html_9281fe5a3da942e212c8ca828fe16e47);
+            
+        
+
+        circle_marker_7c2e1339ac75f6aa5cb8527b7f41452c.bindPopup(popup_730612a42306cdeee5037e0beac2d219)
+        ;
+
+        
+    
+    
+            circle_marker_7c2e1339ac75f6aa5cb8527b7f41452c.bindTooltip(
+                `<div>
+                     ENEZ DENVED — 4 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9dc1f4191517cd4145234470b1040f17 = L.circleMarker(
+                [48.73621202372064, -3.970587721146269],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_5bd001172ef92831b509b5d189de280d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1a13a2ed7b6811fa0284f48a382b4540 = $(`<div id="html_1a13a2ed7b6811fa0284f48a382b4540" style="width: 100.0%; height: 100.0%;"><b>ENEZ TI SAOZON</b><br>Goéland brun (GB)<br><b>1 couples min.</b></div>`)[0];
+                popup_5bd001172ef92831b509b5d189de280d.setContent(html_1a13a2ed7b6811fa0284f48a382b4540);
+            
+        
+
+        circle_marker_9dc1f4191517cd4145234470b1040f17.bindPopup(popup_5bd001172ef92831b509b5d189de280d)
+        ;
+
+        
+    
+    
+            circle_marker_9dc1f4191517cd4145234470b1040f17.bindTooltip(
+                `<div>
+                     ENEZ TI SAOZON — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5453d58c9bfcb6cf4582d3e3af93a138 = L.circleMarker(
+                [48.68620847180292, -3.8840154961934035],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.905694150420949, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_35bdf1e68c3fd9c07403382077f4b137 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_13437bbfa06b409816c7cd9410c63db5 = $(`<div id="html_13437bbfa06b409816c7cd9410c63db5" style="width: 100.0%; height: 100.0%;"><b>ENEZ WARGEZ</b><br>Goéland brun (GB)<br><b>10 couples min.</b></div>`)[0];
+                popup_35bdf1e68c3fd9c07403382077f4b137.setContent(html_13437bbfa06b409816c7cd9410c63db5);
+            
+        
+
+        circle_marker_5453d58c9bfcb6cf4582d3e3af93a138.bindPopup(popup_35bdf1e68c3fd9c07403382077f4b137)
+        ;
+
+        
+    
+    
+            circle_marker_5453d58c9bfcb6cf4582d3e3af93a138.bindTooltip(
+                `<div>
+                     ENEZ WARGEZ — 10 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a3a4f714d8fd53211f0a76faeee145a0 = L.circleMarker(
+                [48.74069730610799, -4.030947166285201],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_50cf6850dca9600c20a3d041e28aa25f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5e98cb55301cc3d41b6718abb596a63 = $(`<div id="html_f5e98cb55301cc3d41b6718abb596a63" style="width: 100.0%; height: 100.0%;"><b>ILOT\_(10)\_ANSE_DE_LANNOU_BIHAN\_(BATZ)</b><br>Goéland brun (GB)<br><b>2 couples min.</b></div>`)[0];
+                popup_50cf6850dca9600c20a3d041e28aa25f.setContent(html_f5e98cb55301cc3d41b6718abb596a63);
+            
+        
+
+        circle_marker_a3a4f714d8fd53211f0a76faeee145a0.bindPopup(popup_50cf6850dca9600c20a3d041e28aa25f)
+        ;
+
+        
+    
+    
+            circle_marker_a3a4f714d8fd53211f0a76faeee145a0.bindTooltip(
+                `<div>
+                     ILOT\_(10)\_ANSE_DE_LANNOU_BIHAN\_(BATZ) — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d34c42baef13ea0c245f6c34d4ea0442 = L.circleMarker(
+                [48.7209341904804, -4.042686926776234],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_e98f75bba05ab20f15cacd7f52deecaf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7f1edfcf5fe5e818714ab3ed07bf319b = $(`<div id="html_7f1edfcf5fe5e818714ab3ed07bf319b" style="width: 100.0%; height: 100.0%;"><b>KILVIC_HI_BRAS</b><br>Goéland brun (GB)<br><b>1 couples min.</b></div>`)[0];
+                popup_e98f75bba05ab20f15cacd7f52deecaf.setContent(html_7f1edfcf5fe5e818714ab3ed07bf319b);
+            
+        
+
+        circle_marker_d34c42baef13ea0c245f6c34d4ea0442.bindPopup(popup_e98f75bba05ab20f15cacd7f52deecaf)
+        ;
+
+        
+    
+    
+            circle_marker_d34c42baef13ea0c245f6c34d4ea0442.bindTooltip(
+                `<div>
+                     KILVIC_HI_BRAS — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bf84221828f8747b8b73591d5e0c4b0 = L.circleMarker(
+                [48.71627106267224, -3.9635397221264403],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.330127018922193, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_c1b782966c72d39424bcf0b8ebdad6ca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c21619d6b22594202bb770b1b05c3d29 = $(`<div id="html_c21619d6b22594202bb770b1b05c3d29" style="width: 100.0%; height: 100.0%;"><b>MOLE PORT DE PLAISANCE ROSCOFF</b><br>Goéland brun (GB)<br><b>3 couples min.</b></div>`)[0];
+                popup_c1b782966c72d39424bcf0b8ebdad6ca.setContent(html_c21619d6b22594202bb770b1b05c3d29);
+            
+        
+
+        circle_marker_7bf84221828f8747b8b73591d5e0c4b0.bindPopup(popup_c1b782966c72d39424bcf0b8ebdad6ca)
+        ;
+
+        
+    
+    
+            circle_marker_7bf84221828f8747b8b73591d5e0c4b0.bindTooltip(
+                `<div>
+                     MOLE PORT DE PLAISANCE ROSCOFF — 3 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_27dac13f17a197034a2161017147b261 = L.circleMarker(
+                [48.737138849771426, -3.9933055242595037],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_3000764659faad000531984a7b31fb7a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b633290224d4138d8b2dfa11518902e = $(`<div id="html_3b633290224d4138d8b2dfa11518902e" style="width: 100.0%; height: 100.0%;"><b>PENN AR C'HLEGUER (POINTE_SE_BATZ)</b><br>Goéland brun (GB)<br><b>1 couples min.</b></div>`)[0];
+                popup_3000764659faad000531984a7b31fb7a.setContent(html_3b633290224d4138d8b2dfa11518902e);
+            
+        
+
+        circle_marker_27dac13f17a197034a2161017147b261.bindPopup(popup_3000764659faad000531984a7b31fb7a)
+        ;
+
+        
+    
+    
+            circle_marker_27dac13f17a197034a2161017147b261.bindTooltip(
+                `<div>
+                     PENN AR C'HLEGUER (POINTE_SE_BATZ) — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_95ee3e7eacdcd85f29d22a8c6a83fbf3 = L.circleMarker(
+                [48.69090543201571, -3.8932932947235765],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_a7cab2291a1a4660ae846e3fe170ff07 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3696158d873cb81725b028c5b26349d7 = $(`<div id="html_3696158d873cb81725b028c5b26349d7" style="width: 100.0%; height: 100.0%;"><b>RIKARD</b><br>Goéland brun (GB)<br><b>2 couples min.</b></div>`)[0];
+                popup_a7cab2291a1a4660ae846e3fe170ff07.setContent(html_3696158d873cb81725b028c5b26349d7);
+            
+        
+
+        circle_marker_95ee3e7eacdcd85f29d22a8c6a83fbf3.bindPopup(popup_a7cab2291a1a4660ae846e3fe170ff07)
+        ;
+
+        
+    
+    
+            circle_marker_95ee3e7eacdcd85f29d22a8c6a83fbf3.bindTooltip(
+                `<div>
+                     RIKARD — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_946876230af373d2ea959c0cfb8f8293 = L.circleMarker(
+                [48.71519130767364, -4.054258541492474],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_68d030ef382f0ab9bfcac5976a5ff9b9);
+        
+    
+        var popup_6ac0436ccf876527237a832e341e94e8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8994fab665004d084b9742b8a829fd5c = $(`<div id="html_8994fab665004d084b9742b8a829fd5c" style="width: 100.0%; height: 100.0%;"><b>ROC_H_SANTEG_VRAS</b><br>Goéland brun (GB)<br><b>1 couples min.</b></div>`)[0];
+                popup_6ac0436ccf876527237a832e341e94e8.setContent(html_8994fab665004d084b9742b8a829fd5c);
+            
+        
+
+        circle_marker_946876230af373d2ea959c0cfb8f8293.bindPopup(popup_6ac0436ccf876527237a832e341e94e8)
+        ;
+
+        
+    
+    
+            circle_marker_946876230af373d2ea959c0cfb8f8293.bindTooltip(
+                `<div>
+                     ROC_H_SANTEG_VRAS — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_68d030ef382f0ab9bfcac5976a5ff9b9.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_c68cb1cead6637610c70d906633f4935 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_a1aea3b6fa828f431d529807dfde2a6e = L.circleMarker(
+                [48.7534721780474, -4.028065127215005],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.123724356957945, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c68cb1cead6637610c70d906633f4935);
+        
+    
+        var popup_b8b9ba342741ab9deb89c1917d443741 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cfef6584693a2f881eba12e030f02e90 = $(`<div id="html_cfef6584693a2f881eba12e030f02e90" style="width: 100.0%; height: 100.0%;"><b>ENEZ AR PRAD</b><br>Grand cormoran (GC)<br><b>6 couples min.</b></div>`)[0];
+                popup_b8b9ba342741ab9deb89c1917d443741.setContent(html_cfef6584693a2f881eba12e030f02e90);
+            
+        
+
+        circle_marker_a1aea3b6fa828f431d529807dfde2a6e.bindPopup(popup_b8b9ba342741ab9deb89c1917d443741)
+        ;
+
+        
+    
+    
+            circle_marker_a1aea3b6fa828f431d529807dfde2a6e.bindTooltip(
+                `<div>
+                     ENEZ AR PRAD — 6 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_734a91148b5163a1058d0626d9260c1e = L.circleMarker(
+                [48.68620847180292, -3.8840154961934035],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.24744871391589, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c68cb1cead6637610c70d906633f4935);
+        
+    
+        var popup_c8fd5b64bcb17cd658fc2570c1dc44be = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eec6efed247ec63f624d4629eb81f6cb = $(`<div id="html_eec6efed247ec63f624d4629eb81f6cb" style="width: 100.0%; height: 100.0%;"><b>ENEZ WARGEZ</b><br>Grand cormoran (GC)<br><b>24 couples min.</b></div>`)[0];
+                popup_c8fd5b64bcb17cd658fc2570c1dc44be.setContent(html_eec6efed247ec63f624d4629eb81f6cb);
+            
+        
+
+        circle_marker_734a91148b5163a1058d0626d9260c1e.bindPopup(popup_c8fd5b64bcb17cd658fc2570c1dc44be)
+        ;
+
+        
+    
+    
+            circle_marker_734a91148b5163a1058d0626d9260c1e.bindTooltip(
+                `<div>
+                     ENEZ WARGEZ — 24 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8554c1a0276f9ca2227a8247e984c35 = L.circleMarker(
+                [48.69090543201571, -3.8932932947235765],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c68cb1cead6637610c70d906633f4935);
+        
+    
+        var popup_6cdf846bd00ab30e848e0aa513fd168f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a1be5187b49dceeaeec9dab859975507 = $(`<div id="html_a1be5187b49dceeaeec9dab859975507" style="width: 100.0%; height: 100.0%;"><b>RIKARD</b><br>Grand cormoran (GC)<br><b>81 couples min.</b></div>`)[0];
+                popup_6cdf846bd00ab30e848e0aa513fd168f.setContent(html_a1be5187b49dceeaeec9dab859975507);
+            
+        
+
+        circle_marker_a8554c1a0276f9ca2227a8247e984c35.bindPopup(popup_6cdf846bd00ab30e848e0aa513fd168f)
+        ;
+
+        
+    
+    
+            circle_marker_a8554c1a0276f9ca2227a8247e984c35.bindTooltip(
+                `<div>
+                     RIKARD — 81 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_c68cb1cead6637610c70d906633f4935.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_ff135dbd995c1cf6c0c9b233c02b20b4 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_e10dfb13d16504abb3ea4e53448c89f5 = L.circleMarker(
+                [48.6999166436993, -3.9293054935348866],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff135dbd995c1cf6c0c9b233c02b20b4);
+        
+    
+        var popup_60cb36fb2775dc260c5c52f4cd715cc2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e3b697fbd9b2d154026190605753bcaa = $(`<div id="html_e3b697fbd9b2d154026190605753bcaa" style="width: 100.0%; height: 100.0%;"><b>ILE BLANCHE CALLOT</b><br>Grand gravelot (GG)<br><b>1 couples min.</b></div>`)[0];
+                popup_60cb36fb2775dc260c5c52f4cd715cc2.setContent(html_e3b697fbd9b2d154026190605753bcaa);
+            
+        
+
+        circle_marker_e10dfb13d16504abb3ea4e53448c89f5.bindPopup(popup_60cb36fb2775dc260c5c52f4cd715cc2)
+        ;
+
+        
+    
+    
+            circle_marker_e10dfb13d16504abb3ea4e53448c89f5.bindTooltip(
+                `<div>
+                     ILE BLANCHE CALLOT — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_ff135dbd995c1cf6c0c9b233c02b20b4.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_94128694d34afc0bce19462416df832e = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_1c33d405991a5a37597f3187d32f0702 = L.circleMarker(
+                [48.70299014994546, -3.909457631585748],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_96f8cd16be67c9cc692ec9a26961de42 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_399ed0c60ab4ddf0552fde6dbadc5db4 = $(`<div id="html_399ed0c60ab4ddf0552fde6dbadc5db4" style="width: 100.0%; height: 100.0%;"><b>AR C'HLAZ</b><br>Goéland marin (GM)<br><b>4 couples min.</b></div>`)[0];
+                popup_96f8cd16be67c9cc692ec9a26961de42.setContent(html_399ed0c60ab4ddf0552fde6dbadc5db4);
+            
+        
+
+        circle_marker_1c33d405991a5a37597f3187d32f0702.bindPopup(popup_96f8cd16be67c9cc692ec9a26961de42)
+        ;
+
+        
+    
+    
+            circle_marker_1c33d405991a5a37597f3187d32f0702.bindTooltip(
+                `<div>
+                     AR C'HLAZ — 4 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f5b5e5601673a7340b43791f9152c52 = L.circleMarker(
+                [48.70413069498688, -3.911121129577506],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_26e0a325b9200d0b3259bda73013a0a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5e4fbdc2976b14c69256fe981744a638 = $(`<div id="html_5e4fbdc2976b14c69256fe981744a638" style="width: 100.0%; height: 100.0%;"><b>AR C'HLAZ KOZ</b><br>Goéland marin (GM)<br><b>1 couples min.</b></div>`)[0];
+                popup_26e0a325b9200d0b3259bda73013a0a4.setContent(html_5e4fbdc2976b14c69256fe981744a638);
+            
+        
+
+        circle_marker_0f5b5e5601673a7340b43791f9152c52.bindPopup(popup_26e0a325b9200d0b3259bda73013a0a4)
+        ;
+
+        
+    
+    
+            circle_marker_0f5b5e5601673a7340b43791f9152c52.bindTooltip(
+                `<div>
+                     AR C'HLAZ KOZ — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8caa0267934229337ab36b9c1d3199e9 = L.circleMarker(
+                [48.70635208162485, -3.9039381399868947],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_0d4097e312eb56c6d77f4a0c40491367 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60038a263df5dd129ca6abeb1a8db4d4 = $(`<div id="html_60038a263df5dd129ca6abeb1a8db4d4" style="width: 100.0%; height: 100.0%;"><b>AR VEZOU</b><br>Goéland marin (GM)<br><b>1 couples min.</b></div>`)[0];
+                popup_0d4097e312eb56c6d77f4a0c40491367.setContent(html_60038a263df5dd129ca6abeb1a8db4d4);
+            
+        
+
+        circle_marker_8caa0267934229337ab36b9c1d3199e9.bindPopup(popup_0d4097e312eb56c6d77f4a0c40491367)
+        ;
+
+        
+    
+    
+            circle_marker_8caa0267934229337ab36b9c1d3199e9.bindTooltip(
+                `<div>
+                     AR VEZOU — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_faab43110c6befcfe44dcf9c7775860c = L.circleMarker(
+                [48.7534721780474, -4.028065127215005],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.013878188659973, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_9258e26dfdd17463ea07c82fb1173c58 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ac62c07807b5e70e08175a52f0fdcb1 = $(`<div id="html_0ac62c07807b5e70e08175a52f0fdcb1" style="width: 100.0%; height: 100.0%;"><b>ENEZ AR PRAD</b><br>Goéland marin (GM)<br><b>13 couples min.</b></div>`)[0];
+                popup_9258e26dfdd17463ea07c82fb1173c58.setContent(html_0ac62c07807b5e70e08175a52f0fdcb1);
+            
+        
+
+        circle_marker_faab43110c6befcfe44dcf9c7775860c.bindPopup(popup_9258e26dfdd17463ea07c82fb1173c58)
+        ;
+
+        
+    
+    
+            circle_marker_faab43110c6befcfe44dcf9c7775860c.bindTooltip(
+                `<div>
+                     ENEZ AR PRAD — 13 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_49ff6824109c830740bc58cf79f12565 = L.circleMarker(
+                [48.73970452304759, -4.001368905901844],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_d87e6079cba4b66f2311c0616f7b3518 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b47db92c970fc00b849bcc9162979ec8 = $(`<div id="html_b47db92c970fc00b849bcc9162979ec8" style="width: 100.0%; height: 100.0%;"><b>ENEZ DENVED</b><br>Goéland marin (GM)<br><b>4 couples min.</b></div>`)[0];
+                popup_d87e6079cba4b66f2311c0616f7b3518.setContent(html_b47db92c970fc00b849bcc9162979ec8);
+            
+        
+
+        circle_marker_49ff6824109c830740bc58cf79f12565.bindPopup(popup_d87e6079cba4b66f2311c0616f7b3518)
+        ;
+
+        
+    
+    
+            circle_marker_49ff6824109c830740bc58cf79f12565.bindTooltip(
+                `<div>
+                     ENEZ DENVED — 4 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5edd1dad31b19f6512518514f1f19184 = L.circleMarker(
+                [48.73294546832799, -3.9703889892376356],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_8f8453185a07bf30d94caa919159fe81 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e14b0ba572075fefb5d684035fe7195a = $(`<div id="html_e14b0ba572075fefb5d684035fe7195a" style="width: 100.0%; height: 100.0%;"><b>ENEZ PIGUED</b><br>Goéland marin (GM)<br><b>2 couples min.</b></div>`)[0];
+                popup_8f8453185a07bf30d94caa919159fe81.setContent(html_e14b0ba572075fefb5d684035fe7195a);
+            
+        
+
+        circle_marker_5edd1dad31b19f6512518514f1f19184.bindPopup(popup_8f8453185a07bf30d94caa919159fe81)
+        ;
+
+        
+    
+    
+            circle_marker_5edd1dad31b19f6512518514f1f19184.bindTooltip(
+                `<div>
+                     ENEZ PIGUED — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d9a16d0647cede47b09a4a231a64f136 = L.circleMarker(
+                [48.73621202372064, -3.970587721146269],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.95582495781317, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_7aa5a7cd4a8ae40d2b8f48cfb89a93f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ffb7425456b9611bb26f99b69854c04e = $(`<div id="html_ffb7425456b9611bb26f99b69854c04e" style="width: 100.0%; height: 100.0%;"><b>ENEZ TI SAOZON</b><br>Goéland marin (GM)<br><b>46 couples min.</b></div>`)[0];
+                popup_7aa5a7cd4a8ae40d2b8f48cfb89a93f5.setContent(html_ffb7425456b9611bb26f99b69854c04e);
+            
+        
+
+        circle_marker_d9a16d0647cede47b09a4a231a64f136.bindPopup(popup_7aa5a7cd4a8ae40d2b8f48cfb89a93f5)
+        ;
+
+        
+    
+    
+            circle_marker_d9a16d0647cede47b09a4a231a64f136.bindTooltip(
+                `<div>
+                     ENEZ TI SAOZON — 46 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_36c6b6f998323ceafefddfa23165d77b = L.circleMarker(
+                [48.744780904008614, -3.9812111108413055],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.330127018922193, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_f2caef1939560b4a163066d190a7287c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_77298c585a6d0743bc7dda8c5ed24a4e = $(`<div id="html_77298c585a6d0743bc7dda8c5ed24a4e" style="width: 100.0%; height: 100.0%;"><b>ENEZ VEY</b><br>Goéland marin (GM)<br><b>3 couples min.</b></div>`)[0];
+                popup_f2caef1939560b4a163066d190a7287c.setContent(html_77298c585a6d0743bc7dda8c5ed24a4e);
+            
+        
+
+        circle_marker_36c6b6f998323ceafefddfa23165d77b.bindPopup(popup_f2caef1939560b4a163066d190a7287c)
+        ;
+
+        
+    
+    
+            circle_marker_36c6b6f998323ceafefddfa23165d77b.bindTooltip(
+                `<div>
+                     ENEZ VEY — 3 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_19ab1ae6f4813914aa0cebd63bddac94 = L.circleMarker(
+                [48.68620847180292, -3.8840154961934035],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_ff7fe446d6b634e55bfcb878647639c1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f5a74f06848427a3589ce44c0c2f32a = $(`<div id="html_4f5a74f06848427a3589ce44c0c2f32a" style="width: 100.0%; height: 100.0%;"><b>ENEZ WARGEZ</b><br>Goéland marin (GM)<br><b>2 couples min.</b></div>`)[0];
+                popup_ff7fe446d6b634e55bfcb878647639c1.setContent(html_4f5a74f06848427a3589ce44c0c2f32a);
+            
+        
+
+        circle_marker_19ab1ae6f4813914aa0cebd63bddac94.bindPopup(popup_ff7fe446d6b634e55bfcb878647639c1)
+        ;
+
+        
+    
+    
+            circle_marker_19ab1ae6f4813914aa0cebd63bddac94.bindTooltip(
+                `<div>
+                     ENEZ WARGEZ — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_003edcd0475cf72c2ba3ad34f402a294 = L.circleMarker(
+                [48.74069730610799, -4.030947166285201],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_f740895daef3b7705319a023e60f637c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_18a73a468c60663ca4801cfaff119972 = $(`<div id="html_18a73a468c60663ca4801cfaff119972" style="width: 100.0%; height: 100.0%;"><b>ILOT\_(10)\_ANSE_DE_LANNOU_BIHAN\_(BATZ)</b><br>Goéland marin (GM)<br><b>2 couples min.</b></div>`)[0];
+                popup_f740895daef3b7705319a023e60f637c.setContent(html_18a73a468c60663ca4801cfaff119972);
+            
+        
+
+        circle_marker_003edcd0475cf72c2ba3ad34f402a294.bindPopup(popup_f740895daef3b7705319a023e60f637c)
+        ;
+
+        
+    
+    
+            circle_marker_003edcd0475cf72c2ba3ad34f402a294.bindTooltip(
+                `<div>
+                     ILOT\_(10)\_ANSE_DE_LANNOU_BIHAN\_(BATZ) — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_26ad85b389e8d79ced900a9edb5506a8 = L.circleMarker(
+                [48.69090543201571, -3.8932932947235765],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.682458365518542, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_3bbe897f2f368fec52183b2ddff5a58b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2cfe287d431cda7dcf603bd962d5a8b4 = $(`<div id="html_2cfe287d431cda7dcf603bd962d5a8b4" style="width: 100.0%; height: 100.0%;"><b>RIKARD</b><br>Goéland marin (GM)<br><b>15 couples min.</b></div>`)[0];
+                popup_3bbe897f2f368fec52183b2ddff5a58b.setContent(html_2cfe287d431cda7dcf603bd962d5a8b4);
+            
+        
+
+        circle_marker_26ad85b389e8d79ced900a9edb5506a8.bindPopup(popup_3bbe897f2f368fec52183b2ddff5a58b)
+        ;
+
+        
+    
+    
+            circle_marker_26ad85b389e8d79ced900a9edb5506a8.bindTooltip(
+                `<div>
+                     RIKARD — 15 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_93e20abd15b4021f61793e8935c85b76 = L.circleMarker(
+                [48.71820124324436, -4.04013733226023],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_94128694d34afc0bce19462416df832e);
+        
+    
+        var popup_d7dbdae1196676e6d627442ba7cc1ed0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b2bf2c3059d1c17a2c49dc3997478c1 = $(`<div id="html_1b2bf2c3059d1c17a2c49dc3997478c1" style="width: 100.0%; height: 100.0%;"><b>ROC_H_AR_SKOUL_VRAS</b><br>Goéland marin (GM)<br><b>1 couples min.</b></div>`)[0];
+                popup_d7dbdae1196676e6d627442ba7cc1ed0.setContent(html_1b2bf2c3059d1c17a2c49dc3997478c1);
+            
+        
+
+        circle_marker_93e20abd15b4021f61793e8935c85b76.bindPopup(popup_d7dbdae1196676e6d627442ba7cc1ed0)
+        ;
+
+        
+    
+    
+            circle_marker_93e20abd15b4021f61793e8935c85b76.bindTooltip(
+                `<div>
+                     ROC_H_AR_SKOUL_VRAS — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_94128694d34afc0bce19462416df832e.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_05d391a36cd61eadbaec74c9e563c268 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_32e6096ac6195010e524361ff6c641be = L.circleMarker(
+                [48.69342944532674, -3.8849438266524654],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.330127018922193, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_37143d7c4c716f1d5f4a0a34cadca82b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b6ce6215371f14cb9909a032b14bcfd = $(`<div id="html_1b6ce6215371f14cb9909a032b14bcfd" style="width: 100.0%; height: 100.0%;"><b>AR BEG LEMM</b><br>Huitrier pie (HP)<br><b>3 couples min.</b></div>`)[0];
+                popup_37143d7c4c716f1d5f4a0a34cadca82b.setContent(html_1b6ce6215371f14cb9909a032b14bcfd);
+            
+        
+
+        circle_marker_32e6096ac6195010e524361ff6c641be.bindPopup(popup_37143d7c4c716f1d5f4a0a34cadca82b)
+        ;
+
+        
+    
+    
+            circle_marker_32e6096ac6195010e524361ff6c641be.bindTooltip(
+                `<div>
+                     AR BEG LEMM — 3 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a6f1b83707c38348d36a92404b060e97 = L.circleMarker(
+                [48.68146535271268, -3.884271165706388],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_388265662385d8b7c58a24cd0890eea7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_075ec9e9874be92ada26d2bcdd103cc8 = $(`<div id="html_075ec9e9874be92ada26d2bcdd103cc8" style="width: 100.0%; height: 100.0%;"><b>ENEZ AN TREZ</b><br>Huitrier pie (HP)<br><b>2 couples min.</b></div>`)[0];
+                popup_388265662385d8b7c58a24cd0890eea7.setContent(html_075ec9e9874be92ada26d2bcdd103cc8);
+            
+        
+
+        circle_marker_a6f1b83707c38348d36a92404b060e97.bindPopup(popup_388265662385d8b7c58a24cd0890eea7)
+        ;
+
+        
+    
+    
+            circle_marker_a6f1b83707c38348d36a92404b060e97.bindTooltip(
+                `<div>
+                     ENEZ AN TREZ — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_caf4da840622a0966c4f3fe1ba4feb25 = L.circleMarker(
+                [48.7534721780474, -4.028065127215005],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_365f23f98138b8b9beb2c398f51f6faf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_755f7c5834da6e51f036480e14c35e2b = $(`<div id="html_755f7c5834da6e51f036480e14c35e2b" style="width: 100.0%; height: 100.0%;"><b>ENEZ AR PRAD</b><br>Huitrier pie (HP)<br><b>4 couples min.</b></div>`)[0];
+                popup_365f23f98138b8b9beb2c398f51f6faf.setContent(html_755f7c5834da6e51f036480e14c35e2b);
+            
+        
+
+        circle_marker_caf4da840622a0966c4f3fe1ba4feb25.bindPopup(popup_365f23f98138b8b9beb2c398f51f6faf)
+        ;
+
+        
+    
+    
+            circle_marker_caf4da840622a0966c4f3fe1ba4feb25.bindTooltip(
+                `<div>
+                     ENEZ AR PRAD — 4 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2187d8dbe562fc94f573bb742ce290c3 = L.circleMarker(
+                [48.73970452304759, -4.001368905901844],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_cd12c74c916e8a09380046a80a6bb23a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8da24f90bd565cf894dea148c2384d96 = $(`<div id="html_8da24f90bd565cf894dea148c2384d96" style="width: 100.0%; height: 100.0%;"><b>ENEZ DENVED</b><br>Huitrier pie (HP)<br><b>1 couples min.</b></div>`)[0];
+                popup_cd12c74c916e8a09380046a80a6bb23a.setContent(html_8da24f90bd565cf894dea148c2384d96);
+            
+        
+
+        circle_marker_2187d8dbe562fc94f573bb742ce290c3.bindPopup(popup_cd12c74c916e8a09380046a80a6bb23a)
+        ;
+
+        
+    
+    
+            circle_marker_2187d8dbe562fc94f573bb742ce290c3.bindTooltip(
+                `<div>
+                     ENEZ DENVED — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2a276e327d3b72a3e7b93d7527bfc158 = L.circleMarker(
+                [48.73621202372064, -3.970587721146269],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.330127018922193, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_01e4c29aa59ec4183d844c3883349033 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_25f13ff862bea0b071d16c8097636e47 = $(`<div id="html_25f13ff862bea0b071d16c8097636e47" style="width: 100.0%; height: 100.0%;"><b>ENEZ TI SAOZON</b><br>Huitrier pie (HP)<br><b>3 couples min.</b></div>`)[0];
+                popup_01e4c29aa59ec4183d844c3883349033.setContent(html_25f13ff862bea0b071d16c8097636e47);
+            
+        
+
+        circle_marker_2a276e327d3b72a3e7b93d7527bfc158.bindPopup(popup_01e4c29aa59ec4183d844c3883349033)
+        ;
+
+        
+    
+    
+            circle_marker_2a276e327d3b72a3e7b93d7527bfc158.bindTooltip(
+                `<div>
+                     ENEZ TI SAOZON — 3 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1ec3cd87308ae728e1894fcf81ae978d = L.circleMarker(
+                [48.744780904008614, -3.9812111108413055],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.330127018922193, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_f6713985ea85f9781e13c0b362bb5f92 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_55c98e14d19a6b8f6ec436e4a7c5523b = $(`<div id="html_55c98e14d19a6b8f6ec436e4a7c5523b" style="width: 100.0%; height: 100.0%;"><b>ENEZ VEY</b><br>Huitrier pie (HP)<br><b>3 couples min.</b></div>`)[0];
+                popup_f6713985ea85f9781e13c0b362bb5f92.setContent(html_55c98e14d19a6b8f6ec436e4a7c5523b);
+            
+        
+
+        circle_marker_1ec3cd87308ae728e1894fcf81ae978d.bindPopup(popup_f6713985ea85f9781e13c0b362bb5f92)
+        ;
+
+        
+    
+    
+            circle_marker_1ec3cd87308ae728e1894fcf81ae978d.bindTooltip(
+                `<div>
+                     ENEZ VEY — 3 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1a2d4892d2670792244fafc5f2e097f8 = L.circleMarker(
+                [48.68620847180292, -3.8840154961934035],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.330127018922193, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_eaff523079096fca73f7938fe57f8b07 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_973feaf242a48b2e7edede9bc57d8ea9 = $(`<div id="html_973feaf242a48b2e7edede9bc57d8ea9" style="width: 100.0%; height: 100.0%;"><b>ENEZ WARGEZ</b><br>Huitrier pie (HP)<br><b>3 couples min.</b></div>`)[0];
+                popup_eaff523079096fca73f7938fe57f8b07.setContent(html_973feaf242a48b2e7edede9bc57d8ea9);
+            
+        
+
+        circle_marker_1a2d4892d2670792244fafc5f2e097f8.bindPopup(popup_eaff523079096fca73f7938fe57f8b07)
+        ;
+
+        
+    
+    
+            circle_marker_1a2d4892d2670792244fafc5f2e097f8.bindTooltip(
+                `<div>
+                     ENEZ WARGEZ — 3 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6804accb35b0294878d8ae9b88e726fb = L.circleMarker(
+                [48.6999166436993, -3.9293054935348866],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_46e27ec4f42c5a89a2ab0a499d495d3a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_13fd0eaae0a3e60d212fd61bf6b03bf2 = $(`<div id="html_13fd0eaae0a3e60d212fd61bf6b03bf2" style="width: 100.0%; height: 100.0%;"><b>ILE BLANCHE CALLOT</b><br>Huitrier pie (HP)<br><b>1 couples min.</b></div>`)[0];
+                popup_46e27ec4f42c5a89a2ab0a499d495d3a.setContent(html_13fd0eaae0a3e60d212fd61bf6b03bf2);
+            
+        
+
+        circle_marker_6804accb35b0294878d8ae9b88e726fb.bindPopup(popup_46e27ec4f42c5a89a2ab0a499d495d3a)
+        ;
+
+        
+    
+    
+            circle_marker_6804accb35b0294878d8ae9b88e726fb.bindTooltip(
+                `<div>
+                     ILE BLANCHE CALLOT — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66f997a77c27e0d661f50c88d273bd84 = L.circleMarker(
+                [48.672569302072006, -3.8754711911609947],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_e13862e3e7b17c20ec5864d92a65e28e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b7ba2ed8ea30fe217ca4b2e957b87fc4 = $(`<div id="html_b7ba2ed8ea30fe217ca4b2e957b87fc4" style="width: 100.0%; height: 100.0%;"><b>ILE NOIRE</b><br>Huitrier pie (HP)<br><b>1 couples min.</b></div>`)[0];
+                popup_e13862e3e7b17c20ec5864d92a65e28e.setContent(html_b7ba2ed8ea30fe217ca4b2e957b87fc4);
+            
+        
+
+        circle_marker_66f997a77c27e0d661f50c88d273bd84.bindPopup(popup_e13862e3e7b17c20ec5864d92a65e28e)
+        ;
+
+        
+    
+    
+            circle_marker_66f997a77c27e0d661f50c88d273bd84.bindTooltip(
+                `<div>
+                     ILE NOIRE — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b557f6cc130fa5f870d09fd156d7a401 = L.circleMarker(
+                [48.713555538328535, -4.048333269515569],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_292c95f393cd866a08db3a274b417c28 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_306c0f1a34727b21bf5278a3254be480 = $(`<div id="html_306c0f1a34727b21bf5278a3254be480" style="width: 100.0%; height: 100.0%;"><b>ILE VERTE SANTEC</b><br>Huitrier pie (HP)<br><b>1 couples min.</b></div>`)[0];
+                popup_292c95f393cd866a08db3a274b417c28.setContent(html_306c0f1a34727b21bf5278a3254be480);
+            
+        
+
+        circle_marker_b557f6cc130fa5f870d09fd156d7a401.bindPopup(popup_292c95f393cd866a08db3a274b417c28)
+        ;
+
+        
+    
+    
+            circle_marker_b557f6cc130fa5f870d09fd156d7a401.bindTooltip(
+                `<div>
+                     ILE VERTE SANTEC — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f5bc9966331ebbd08defe4d1d3c1ec29 = L.circleMarker(
+                [48.74069730610799, -4.030947166285201],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_786c0ad0af3517e66880553a4a566e1b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df9c282c089e0cc2f14f536c2bbff9f5 = $(`<div id="html_df9c282c089e0cc2f14f536c2bbff9f5" style="width: 100.0%; height: 100.0%;"><b>ILOT\_(10)\_ANSE_DE_LANNOU_BIHAN\_(BATZ)</b><br>Huitrier pie (HP)<br><b>2 couples min.</b></div>`)[0];
+                popup_786c0ad0af3517e66880553a4a566e1b.setContent(html_df9c282c089e0cc2f14f536c2bbff9f5);
+            
+        
+
+        circle_marker_f5bc9966331ebbd08defe4d1d3c1ec29.bindPopup(popup_786c0ad0af3517e66880553a4a566e1b)
+        ;
+
+        
+    
+    
+            circle_marker_f5bc9966331ebbd08defe4d1d3c1ec29.bindTooltip(
+                `<div>
+                     ILOT\_(10)\_ANSE_DE_LANNOU_BIHAN\_(BATZ) — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_85a8349446ce5461840054c8f679d446 = L.circleMarker(
+                [48.738925250184586, -3.995698902059891],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_21e2f47c031961cb728bf606bf24fc6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ad1bf494a72ea86b659610b7df65487 = $(`<div id="html_0ad1bf494a72ea86b659610b7df65487" style="width: 100.0%; height: 100.0%;"><b>ILOT_EST_PENN_LEOG</b><br>Huitrier pie (HP)<br><b>2 couples min.</b></div>`)[0];
+                popup_21e2f47c031961cb728bf606bf24fc6e.setContent(html_0ad1bf494a72ea86b659610b7df65487);
+            
+        
+
+        circle_marker_85a8349446ce5461840054c8f679d446.bindPopup(popup_21e2f47c031961cb728bf606bf24fc6e)
+        ;
+
+        
+    
+    
+            circle_marker_85a8349446ce5461840054c8f679d446.bindTooltip(
+                `<div>
+                     ILOT_EST_PENN_LEOG — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_88afdf007bc7080d130ec4944eee92c8 = L.circleMarker(
+                [48.73854083801258, -3.9985618950076685],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_efab83f86214be64d23f8dd7bf42d5cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_76ce37042aaa29397dcb112e773dbf69 = $(`<div id="html_76ce37042aaa29397dcb112e773dbf69" style="width: 100.0%; height: 100.0%;"><b>ILOT_OUEST_PENN_LEOG</b><br>Huitrier pie (HP)<br><b>1 couples min.</b></div>`)[0];
+                popup_efab83f86214be64d23f8dd7bf42d5cf.setContent(html_76ce37042aaa29397dcb112e773dbf69);
+            
+        
+
+        circle_marker_88afdf007bc7080d130ec4944eee92c8.bindPopup(popup_efab83f86214be64d23f8dd7bf42d5cf)
+        ;
+
+        
+    
+    
+            circle_marker_88afdf007bc7080d130ec4944eee92c8.bindTooltip(
+                `<div>
+                     ILOT_OUEST_PENN_LEOG — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b4c493276ccd75027f0b1734565929de = L.circleMarker(
+                [48.7209341904804, -4.042686926776234],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_848b4954f855074aaa51a65b1f7ab083 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f8360fafbaa1e5ee3e5a18a049ffa8fb = $(`<div id="html_f8360fafbaa1e5ee3e5a18a049ffa8fb" style="width: 100.0%; height: 100.0%;"><b>KILVIC_HI_BRAS</b><br>Huitrier pie (HP)<br><b>1 couples min.</b></div>`)[0];
+                popup_848b4954f855074aaa51a65b1f7ab083.setContent(html_f8360fafbaa1e5ee3e5a18a049ffa8fb);
+            
+        
+
+        circle_marker_b4c493276ccd75027f0b1734565929de.bindPopup(popup_848b4954f855074aaa51a65b1f7ab083)
+        ;
+
+        
+    
+    
+            circle_marker_b4c493276ccd75027f0b1734565929de.bindTooltip(
+                `<div>
+                     KILVIC_HI_BRAS — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_91e4af8f895c0f10c738d868dd3db5e7 = L.circleMarker(
+                [48.69090543201571, -3.8932932947235765],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.330127018922193, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_2d0d57e12d6d54484299e54d583eba46 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e33f45458467566d9c9478a8bb0c6f07 = $(`<div id="html_e33f45458467566d9c9478a8bb0c6f07" style="width: 100.0%; height: 100.0%;"><b>RIKARD</b><br>Huitrier pie (HP)<br><b>3 couples min.</b></div>`)[0];
+                popup_2d0d57e12d6d54484299e54d583eba46.setContent(html_e33f45458467566d9c9478a8bb0c6f07);
+            
+        
+
+        circle_marker_91e4af8f895c0f10c738d868dd3db5e7.bindPopup(popup_2d0d57e12d6d54484299e54d583eba46)
+        ;
+
+        
+    
+    
+            circle_marker_91e4af8f895c0f10c738d868dd3db5e7.bindTooltip(
+                `<div>
+                     RIKARD — 3 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6c11ae38f4ad8d1d742d1a655b3ad2ce = L.circleMarker(
+                [48.71927445933466, -4.036466702862435],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05d391a36cd61eadbaec74c9e563c268);
+        
+    
+        var popup_7167802eccfe1df6d948173e58d46e97 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_83beaffa1f673f37e768618e61f63b93 = $(`<div id="html_83beaffa1f673f37e768618e61f63b93" style="width: 100.0%; height: 100.0%;"><b>ROCHE_SUD_AN_AERED\_(COTE_11)</b><br>Huitrier pie (HP)<br><b>1 couples min.</b></div>`)[0];
+                popup_7167802eccfe1df6d948173e58d46e97.setContent(html_83beaffa1f673f37e768618e61f63b93);
+            
+        
+
+        circle_marker_6c11ae38f4ad8d1d742d1a655b3ad2ce.bindPopup(popup_7167802eccfe1df6d948173e58d46e97)
+        ;
+
+        
+    
+    
+            circle_marker_6c11ae38f4ad8d1d742d1a655b3ad2ce.bindTooltip(
+                `<div>
+                     ROCHE_SUD_AN_AERED\_(COTE_11) — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_05d391a36cd61eadbaec74c9e563c268.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_c976aa9be7b68ad7ce17d3d9142e494d = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_6ee7024975620308c626c3680e2e5b11 = L.circleMarker(
+                [48.69342944532674, -3.8849438266524654],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c976aa9be7b68ad7ce17d3d9142e494d);
+        
+    
+        var popup_dbf8cefc830bcbd5224840e775268f1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0f9c7253b5b71274fd037154af4af29f = $(`<div id="html_0f9c7253b5b71274fd037154af4af29f" style="width: 100.0%; height: 100.0%;"><b>AR BEG LEMM</b><br>Pipit maritime (PM)<br><b>1 couples min.</b></div>`)[0];
+                popup_dbf8cefc830bcbd5224840e775268f1d.setContent(html_0f9c7253b5b71274fd037154af4af29f);
+            
+        
+
+        circle_marker_6ee7024975620308c626c3680e2e5b11.bindPopup(popup_dbf8cefc830bcbd5224840e775268f1d)
+        ;
+
+        
+    
+    
+            circle_marker_6ee7024975620308c626c3680e2e5b11.bindTooltip(
+                `<div>
+                     AR BEG LEMM — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_44366f8fea6a2452c23397011ca1144c = L.circleMarker(
+                [48.70299014994546, -3.909457631585748],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c976aa9be7b68ad7ce17d3d9142e494d);
+        
+    
+        var popup_834906c77ee1cfc4f02410204284de86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac8c3c1f386808724c8ae1b9240c04de = $(`<div id="html_ac8c3c1f386808724c8ae1b9240c04de" style="width: 100.0%; height: 100.0%;"><b>AR C'HLAZ</b><br>Pipit maritime (PM)<br><b>1 couples min.</b></div>`)[0];
+                popup_834906c77ee1cfc4f02410204284de86.setContent(html_ac8c3c1f386808724c8ae1b9240c04de);
+            
+        
+
+        circle_marker_44366f8fea6a2452c23397011ca1144c.bindPopup(popup_834906c77ee1cfc4f02410204284de86)
+        ;
+
+        
+    
+    
+            circle_marker_44366f8fea6a2452c23397011ca1144c.bindTooltip(
+                `<div>
+                     AR C'HLAZ — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_73af1d3d7572e0b02aa246c07e4ea707 = L.circleMarker(
+                [48.68620847180292, -3.8840154961934035],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c976aa9be7b68ad7ce17d3d9142e494d);
+        
+    
+        var popup_2babe2b50bad823806713338ee229fb1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a2c5a8c37e9e29d7a0073926cb497725 = $(`<div id="html_a2c5a8c37e9e29d7a0073926cb497725" style="width: 100.0%; height: 100.0%;"><b>ENEZ WARGEZ</b><br>Pipit maritime (PM)<br><b>2 couples min.</b></div>`)[0];
+                popup_2babe2b50bad823806713338ee229fb1.setContent(html_a2c5a8c37e9e29d7a0073926cb497725);
+            
+        
+
+        circle_marker_73af1d3d7572e0b02aa246c07e4ea707.bindPopup(popup_2babe2b50bad823806713338ee229fb1)
+        ;
+
+        
+    
+    
+            circle_marker_73af1d3d7572e0b02aa246c07e4ea707.bindTooltip(
+                `<div>
+                     ENEZ WARGEZ — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d2a378cf1bdc7bed39d1691b39db74a2 = L.circleMarker(
+                [48.69090543201571, -3.8932932947235765],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c976aa9be7b68ad7ce17d3d9142e494d);
+        
+    
+        var popup_c3e5da62f59cee9e30cc96212ca33c73 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cd353e4377ac276f343c49dfb6533f86 = $(`<div id="html_cd353e4377ac276f343c49dfb6533f86" style="width: 100.0%; height: 100.0%;"><b>RIKARD</b><br>Pipit maritime (PM)<br><b>2 couples min.</b></div>`)[0];
+                popup_c3e5da62f59cee9e30cc96212ca33c73.setContent(html_cd353e4377ac276f343c49dfb6533f86);
+            
+        
+
+        circle_marker_d2a378cf1bdc7bed39d1691b39db74a2.bindPopup(popup_c3e5da62f59cee9e30cc96212ca33c73)
+        ;
+
+        
+    
+    
+            circle_marker_d2a378cf1bdc7bed39d1691b39db74a2.bindTooltip(
+                `<div>
+                     RIKARD — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_c976aa9be7b68ad7ce17d3d9142e494d.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_6723acba5ff09f3cf44d0321d3b6b50b = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_1bad5c6cead82631fafbf99a36515c87 = L.circleMarker(
+                [48.68146535271268, -3.884271165706388],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.071067811865476, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6723acba5ff09f3cf44d0321d3b6b50b);
+        
+    
+        var popup_47de084e7bdab477b099902311c47434 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_47f906cd608a685974a6bf7e2939e16c = $(`<div id="html_47f906cd608a685974a6bf7e2939e16c" style="width: 100.0%; height: 100.0%;"><b>ENEZ AN TREZ</b><br>Sterne pierregarin (SP)<br><b>8 couples min.</b></div>`)[0];
+                popup_47de084e7bdab477b099902311c47434.setContent(html_47f906cd608a685974a6bf7e2939e16c);
+            
+        
+
+        circle_marker_1bad5c6cead82631fafbf99a36515c87.bindPopup(popup_47de084e7bdab477b099902311c47434)
+        ;
+
+        
+    
+    
+            circle_marker_1bad5c6cead82631fafbf99a36515c87.bindTooltip(
+                `<div>
+                     ENEZ AN TREZ — 8 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_6723acba5ff09f3cf44d0321d3b6b50b.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var feature_group_3a57bc523999c5976725eb145eb021be = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_cceb1a22488fbbd26385a1122d7dd7f2 = L.circleMarker(
+                [48.73621202372064, -3.970587721146269],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3a57bc523999c5976725eb145eb021be);
+        
+    
+        var popup_9ade3862b91e6f2d08d32e317ea1f413 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_59084bf5d5fff22f147890765272dfad = $(`<div id="html_59084bf5d5fff22f147890765272dfad" style="width: 100.0%; height: 100.0%;"><b>ENEZ TI SAOZON</b><br>Tadorne de Belon (TDB)<br><b>1 couples min.</b></div>`)[0];
+                popup_9ade3862b91e6f2d08d32e317ea1f413.setContent(html_59084bf5d5fff22f147890765272dfad);
+            
+        
+
+        circle_marker_cceb1a22488fbbd26385a1122d7dd7f2.bindPopup(popup_9ade3862b91e6f2d08d32e317ea1f413)
+        ;
+
+        
+    
+    
+            circle_marker_cceb1a22488fbbd26385a1122d7dd7f2.bindTooltip(
+                `<div>
+                     ENEZ TI SAOZON — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe9939b5e4752fb28eb3c1e94694d149 = L.circleMarker(
+                [48.73983330573677, -4.026222165608482],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3a57bc523999c5976725eb145eb021be);
+        
+    
+        var popup_a69868e9198669ac03ef8e1bc9cf1242 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aede8bd23381188f6ba471332d99f749 = $(`<div id="html_aede8bd23381188f6ba471332d99f749" style="width: 100.0%; height: 100.0%;"><b>LANNOU BIHAN</b><br>Tadorne de Belon (TDB)<br><b>1 couples min.</b></div>`)[0];
+                popup_a69868e9198669ac03ef8e1bc9cf1242.setContent(html_aede8bd23381188f6ba471332d99f749);
+            
+        
+
+        circle_marker_fe9939b5e4752fb28eb3c1e94694d149.bindPopup(popup_a69868e9198669ac03ef8e1bc9cf1242)
+        ;
+
+        
+    
+    
+            circle_marker_fe9939b5e4752fb28eb3c1e94694d149.bindTooltip(
+                `<div>
+                     LANNOU BIHAN — 1 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_76f0c09f8aaca0ebd4807be80b05f2c7 = L.circleMarker(
+                [48.69090543201571, -3.8932932947235765],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.535533905932738, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3a57bc523999c5976725eb145eb021be);
+        
+    
+        var popup_f2837a56a80b21a505766df64521934e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_20b9035c520360470a1b605a6e4f423f = $(`<div id="html_20b9035c520360470a1b605a6e4f423f" style="width: 100.0%; height: 100.0%;"><b>RIKARD</b><br>Tadorne de Belon (TDB)<br><b>2 couples min.</b></div>`)[0];
+                popup_f2837a56a80b21a505766df64521934e.setContent(html_20b9035c520360470a1b605a6e4f423f);
+            
+        
+
+        circle_marker_76f0c09f8aaca0ebd4807be80b05f2c7.bindPopup(popup_f2837a56a80b21a505766df64521934e)
+        ;
+
+        
+    
+    
+            circle_marker_76f0c09f8aaca0ebd4807be80b05f2c7.bindTooltip(
+                `<div>
+                     RIKARD — 2 couples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_3a57bc523999c5976725eb145eb021be.addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+        
+    
+            var layer_control_d5f3e4f412d9d50df1c80c4c2e27403c_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_a622cb626d71ba9461ce202e2e6afc72,
+                },
+                overlays :  {
+                    "AG \u2014 Aigrette garzette" : feature_group_3a4fb4fae971cc3e7524772eb4370a7b,
+                    "CH \u2014 Cormoran hupp\u00e9" : feature_group_ea3f89f60e904631f1299ff78ff32647,
+                    "GA \u2014 Go\u00e9land argent\u00e9" : feature_group_e8d9dadb3cc23a0e629b0cda326647fa,
+                    "GB \u2014 Go\u00e9land brun" : feature_group_68d030ef382f0ab9bfcac5976a5ff9b9,
+                    "GC \u2014 Grand cormoran" : feature_group_c68cb1cead6637610c70d906633f4935,
+                    "GG \u2014 Grand gravelot" : feature_group_ff135dbd995c1cf6c0c9b233c02b20b4,
+                    "GM \u2014 Go\u00e9land marin" : feature_group_94128694d34afc0bce19462416df832e,
+                    "HP \u2014 Huitrier pie" : feature_group_05d391a36cd61eadbaec74c9e563c268,
+                    "PM \u2014 Pipit maritime" : feature_group_c976aa9be7b68ad7ce17d3d9142e494d,
+                    "SP \u2014 Sterne pierregarin" : feature_group_6723acba5ff09f3cf44d0321d3b6b50b,
+                    "TDB \u2014 Tadorne de Belon" : feature_group_3a57bc523999c5976725eb145eb021be,
+                },
+            };
+            let layer_control_d5f3e4f412d9d50df1c80c4c2e27403c = L.control.layers(
+                layer_control_d5f3e4f412d9d50df1c80c4c2e27403c_layers.base_layers,
+                layer_control_d5f3e4f412d9d50df1c80c4c2e27403c_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_0e2c9ea011efdbb6f8b9a80b7c8f699a);
+
+        
+</script>
+</html>
